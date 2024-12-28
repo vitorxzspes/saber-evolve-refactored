@@ -7,7 +7,14 @@ export default function Home() {
     <div>
       <Header />
       <h1>Home</h1>
-      <p>Welcome to the home page!</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem impedit, rem accusantium eveniet earum tenetur quos. Esse fugit quo ratione eum, voluptatibus numquam vitae magni earum incidunt dolor eligendi unde.</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem impedit, rem accusantium eveniet earum tenetur quos. Esse fugit quo ratione eum, voluptatibus numquam vitae magni earum incidunt dolor eligendi unde.</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem impedit, rem accusantium eveniet earum tenetur quos. Esse fugit quo ratione eum, voluptatibus numquam vitae magni earum incidunt dolor eligendi unde.</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem impedit, rem accusantium eveniet earum tenetur quos. Esse fugit quo ratione eum, voluptatibus numquam vitae magni earum incidunt dolor eligendi unde.</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem impedit, rem accusantium eveniet earum tenetur quos. Esse fugit quo ratione eum, voluptatibus numquam vitae magni earum incidunt dolor eligendi unde.</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem impedit, rem accusantium eveniet earum tenetur quos. Esse fugit quo ratione eum, voluptatibus numquam vitae magni earum incidunt dolor eligendi unde.</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem impedit, rem accusantium eveniet earum tenetur quos. Esse fugit quo ratione eum, voluptatibus numquam vitae magni earum incidunt dolor eligendi unde.</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem impedit, rem accusantium eveniet earum tenetur quos. Esse fugit quo ratione eum, voluptatibus numquam vitae magni earum incidunt dolor eligendi unde.</p>
       <Footer />
     </div>
   );

@@ -1,3 +1,21 @@
 .imgLogo {
     filter: invert();
 }
+
+.ulHeader {
+
+    margin: 0;
+    width: 100%;
+    border: solid gray;
+    border-radius: 10px;
+
+    @media (min-width: 1025px) {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.liHeader {
+    margin: 0;
+    padding: .4rem;
+}
