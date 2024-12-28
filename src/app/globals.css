@@ -21,6 +21,11 @@ body {
 
     color: var(--color-secondary);
     background-color: var(--color-primary);
+    font: var(--font-primary);
+}
+
+header {
+
 }
 
 footer {
@@ -33,4 +38,10 @@ footer {
 a {
     color: var(--color-tertiary);
     font-weight: bold;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
