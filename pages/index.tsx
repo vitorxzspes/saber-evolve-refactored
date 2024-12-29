@@ -11,6 +11,7 @@ export default function Home() {
     <div>
       <Head>
         <title>saber evolve - Home</title>
+        <link rel="icon" href="/icons/favicon.ico"/>
       </Head>      
       <Header />
       <motion.div

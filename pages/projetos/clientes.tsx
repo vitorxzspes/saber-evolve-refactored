@@ -10,6 +10,7 @@ export default function Clientes() {
         <div>
             <Head>
                 <title>saber evolve - Projetos de clientes</title>
+                <link rel="icon" href="/icons/favicon.ico"/>
             </Head>
             <Header/>
             <motion.div

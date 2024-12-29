@@ -10,6 +10,7 @@ export  default function Sobre() {
         <div>
             <Head>
                 <title>saber evolve - Sobre</title>
+                <link rel="icon" href="/icons/favicon.ico"/>
             </Head>
             <Header />
             <motion.div

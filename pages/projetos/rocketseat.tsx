@@ -10,6 +10,7 @@ export default function Rocketseat() {
         <div>
             <Head>
                 <title>saber evolve - Projetos da Rocketseat</title>
+                <link rel="icon" href="/icons/favicon.ico"/>
             </Head>
             <Header/>
             <motion.div

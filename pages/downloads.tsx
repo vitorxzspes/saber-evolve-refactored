@@ -10,6 +10,7 @@ export default function Downloads() {
         <div>
             <Head>
                 <title>saber evolve - Downloads</title>
+                <link rel="icon" href="/icons/favicon.ico"/>
             </Head>
             <Header />
             <motion.div

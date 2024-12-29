@@ -10,6 +10,7 @@ export default function Privacidade() {
         <div>
             <Head>
                 <title>saber evolve - Privacidade</title>
+                <link rel="icon" href="/icons/favicon.ico"/>
             </Head>
             <Header />
             <motion.div

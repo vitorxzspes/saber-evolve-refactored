@@ -10,6 +10,7 @@ export default function Pessoais() {
         <div>
             <Head>
                 <title>saber evolve - Projetos pessoais</title>
+                <link rel="icon" href="/icons/favicon.ico"/>
             </Head>
             <Header/>
             <motion.div
