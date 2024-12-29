@@ -18,6 +18,18 @@
 }
 
 .liHeader {
-    margin: 0;
+    margin: .4rem;
     padding: .4rem;
+}
+
+.liHeader:hover {
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+}
+
+.liHeader:active {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
 }
