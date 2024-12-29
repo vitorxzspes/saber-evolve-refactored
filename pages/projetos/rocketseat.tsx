@@ -1,12 +1,16 @@
 import { Header } from "@/app/Components/Header/page";
 import { Footer } from "@/app/Components/Footer/page";
 
-import { motion } from "framer-motion";
+import Head from "next/head";
 import styles from './rocketseat.module.css';
+import { motion } from "framer-motion";
 
 export default function Rocketseat() {
     return (
         <div>
+            <Head>
+                <title>saber evolve - Projetos da Rocketseat</title>
+            </Head>
             <Header/>
             <motion.div
                 className={styles.divRocketseat}

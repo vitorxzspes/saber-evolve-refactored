@@ -1,12 +1,16 @@
 import { Header } from "@/app/Components/Header/page";
 import { Footer } from "@/app/Components/Footer/page";
 
-import { motion } from "framer-motion";
+import Head from "next/head";
 import styles from './privacidade.module.css';
+import { motion } from "framer-motion";
 
 export default function Privacidade() {
     return (
         <div>
+            <Head>
+                <title>saber evolve - Privacidade</title>
+            </Head>
             <Header />
             <motion.div
                 className={styles.divPrivacidade}
