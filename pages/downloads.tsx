@@ -1,13 +1,13 @@
 import { Header } from "@/app/Components/Header/page";
 import { Footer } from "@/app/Components/Footer/page";
 
-export  default function Sobre() {
+export default function Downloads() {
     return (
         <div>
             <Header />
-            <h1>Sobre</h1>
-            <p>Este é um projeto de exemplo para demonstrar o uso do Next.js com TypeScript.</p>
+            <h1>Downloads</h1>
+            <p>Em breve...</p>
             <Footer />
         </div>
     );
-}
+};
