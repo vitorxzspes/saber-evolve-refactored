@@ -1,5 +1,7 @@
 .imgLogo {
     filter: invert();
+    width: auto;
+    height: auto;
 }
 
 .ulHeader {

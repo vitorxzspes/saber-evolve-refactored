@@ -6,7 +6,7 @@ export function Header() {
     return (
         <header>
             <div className={styles.divHeaderLeft}> 
-                <Image className={styles.imgLogo} src={logo_main} alt="Logo principal"/>
+                <Image className={styles.imgLogo} src={logo_main} alt="Logo principal" priority/>
             </div>
             <div className={styles.divHeaderRight}>
                 <ul className={styles.ulHeader}>

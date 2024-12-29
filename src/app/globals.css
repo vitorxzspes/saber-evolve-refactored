@@ -31,6 +31,7 @@ header {
     font: var(--font-secondary);
     font-size: 1.2rem;
     margin: 1rem;
+    animation: fadeIn 1.5s;
     text-align: center;
     align-items: center;
 
@@ -45,6 +46,7 @@ header {
 }
 
 footer {
+    animation: fadeIn 1.5s;
     margin: 1rem;
     text-align: center;
     font: var(--font-secondary);
@@ -65,4 +67,13 @@ ul, li {
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
