@@ -1,0 +1,67 @@
+.divHome {
+    margin: 1rem;
+}
+
+.divHomeShow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    text-align: center;
+
+    @media (max-width: 768px) {
+        display: block;
+    }
+}
+
+.divHomePhrase {
+    
+    text-align: center;
+
+    .divHomePhraseIcon {
+        font-size: 7rem;
+    }
+
+    .divHomePhraseText {
+        font-style: italic;
+    }
+}
+
+.divHomeSkills {
+
+    /* HABILIDADES */
+
+    .divHomeSkillsTitle {
+        text-align: center;
+        margin: 4rem 0;
+    }
+
+    /* O QUE EU FAÇO */
+    
+    .divHomeWhatIDo {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
+
+        .ulHomeWhatIDo li {
+            list-style: circle;
+        }
+
+        .divHomeWhatIDoLeft {
+            flex: 2.5;
+        }
+
+        .divHomeWhatIDoRight {
+            flex: 1;
+        }   
+    }
+
+    /* COMO EU FAÇO */
+
+    .divHomeHowIdo {
+
+    }
+}

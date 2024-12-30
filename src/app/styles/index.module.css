@@ -1,0 +1,5 @@
+@import url("./animations.module.css");
+
+.divClientes {
+    --color-test: red;
+}
