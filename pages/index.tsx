@@ -91,9 +91,6 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.divHomeHowIDo}>
-            <div className={styles.divHomeHowIDoLeft}>
-
-            </div>
             <div className={styles.divHomeHowIDoRight}>
               <h2>
                 como eu faço?
@@ -101,6 +98,61 @@ export default function Home() {
               <p>
                 com muita dedicação, estudo e trabalho duro. Com uma ajudinha dessas ferramentas:
               </p>
+            </div>
+            <div className={styles.divHomeHowIDoLeft}>
+              <div className={styles.divHomeTools}>
+                <div className={styles.divHomeToolsFrameworks}>
+                  <h3>Frameworks</h3>
+                  <ul className={styles.ulHomeToolsFrameworks}>
+                    <li>React</li>
+                    <li>Next</li>
+                    <li>React Native</li>
+                    <li>Node</li>
+                  </ul>
+                </div>
+                <div className={styles.divHomeToolsLanguages}>
+                  <h3>Linguagens</h3>
+                  <ul className={styles.ulHomeToolsLanguages}>
+                    <li>TypeScript</li>
+                    <li>JavaScript</li>
+                    <li>C#</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Python</li>
+                    <li>JSX / TSX</li>
+                  </ul>
+                </div>
+                <div className={styles.divHomeToolsLibraries}>
+                  <h3>Bibliotecas</h3>
+                  <ul>
+                    <li>Prisma</li>
+                    <li>Jest</li>
+                    <li>Webpack</li>
+                    <li>Vite</li>
+                    <li>Styled Components</li>
+                  </ul>
+                </div>
+                
+                <div className={styles.divHomeToolsDatabases}>
+                  <h3>Bancos de Dados</h3>
+                  <ul>
+                    <li>PostgreSQL</li>
+                    <li>SQLite</li>
+                    <li>MongoDB</li>
+                  </ul>
+                </div>
+
+                <div className={styles.divHomeToolsOthers}>
+                  <h3>Outros</h3>
+                  <ul>
+                    <li>PostgreSQL</li>
+                    <li>APIs RESTful</li>
+                    <li>Docker</li>
+                    <li>DevOps</li>
+                    <li>UI/UX com Figma</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
