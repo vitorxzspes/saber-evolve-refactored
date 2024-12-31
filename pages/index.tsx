@@ -8,22 +8,27 @@ import Head from "next/head";
 import styles from './home.module.css';
 import { motion } from "framer-motion";
 
-const MAX_PHRASES = 6;
 
 export default function Home() {
-
+  
   // MUDANDO FRASES
-
+  
   const [phraseIndex, setPhraseIndex] = useState(0);
-
-  const icons = ["💡", "🚀", "🌟", "🦸‍♂️", "🧙‍♂️", "🛸"];
+  
+  const icons = ["💡", "🚀", "🌟", "🦸‍♂️", "🧙‍♂️", "🛸", "🦇", "👼", "✝️", "🙏", "🥋", "👊"];
   const texts = [
     "A persistência é o caminho do êxito.",
     "O sucesso é a soma de pequenos esforços repetidos dia após dia.",
     "Acredite em si próprio e todo o resto ficará mais fácil.",
     "Com grandes poderes, vêm grandes responsabilidades.",
     "Não é nossa habilidade que mostra quem realmente somos... são nossas escolhas.",
-    "A verdade está lá fora."
+    "A verdade está lá fora.",
+    "Eu sou a vingança, eu sou a noite, eu sou o Batman.",
+    "Os anjos nos guiam e protegem.",
+    "Eu sou o caminho, a verdade e a vida.",
+    "A fé move montanhas.",
+    "A prática leva à perfeição.",
+    "A força não vem da capacidade física, mas da vontade indomável."
   ];
   const authors = [
     "Charles Chaplin",
@@ -31,8 +36,16 @@ export default function Home() {
     "Norman Vincent Peale",
     "Tio Ben (Homem-Aranha)",
     "Dumbledore (Harry Potter)",
-    "Fox Mulder (Arquivo X)"
+    "Fox Mulder (Arquivo X)",
+    "Batman",
+    "vitor :D",
+    "Jesus Cristo",
+    "vitor ^^",
+    "Dojo Kun",
+    "Dojo Kun"
   ];
+  
+  const MAX_PHRASES = icons.length;
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -191,6 +204,9 @@ export default function Home() {
           </div>
         </div>
 
+        <hr/>
+
+{/* DIVHOMEPROTOTIPOS */}
       </motion.div>
       <Footer />
     </div>

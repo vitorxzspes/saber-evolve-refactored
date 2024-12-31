@@ -16,12 +16,10 @@
 .divHomePhrase {
     
     text-align: center;
+    margin: 4rem 0;
 
     .divHomePhraseIcon {
         font-size: 7rem;
-    }
-
-    .divHomePhraseIcon:hover {
         animation: phraseIcon 3s infinite;
     }
 
@@ -33,6 +31,8 @@
 .divHomeSkills {
 
     /* HABILIDADES */
+
+    margin-bottom: 3rem;
 
     .divHomeSkillsTitle {
         text-align: center;

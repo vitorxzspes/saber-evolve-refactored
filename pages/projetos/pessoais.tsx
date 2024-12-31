@@ -19,7 +19,7 @@ export default function Pessoais() {
                 animate={{opacity: 1, y: 0}}
                 transition={{duration: 0.5}}>
 
-                <h1>Clientes</h1>
+                <h1>Pessoais</h1>
             </motion.div>
             <Footer/>
         </div>
