@@ -21,6 +21,10 @@
         font-size: 7rem;
     }
 
+    .divHomePhraseIcon:hover {
+        animation: phraseIcon 3s infinite;
+    }
+
     .divHomePhraseText {
         font-style: italic;
     }
@@ -74,5 +78,20 @@
                 flex-direction: column;
             }
         }
+    }
+}
+
+/* ANIMATIONS */
+
+@keyframes phraseIcon {
+    0% {
+        transform: rotate(0deg);
+    } 
+    50% {
+        transform: rotate(360deg);
+    } 75% {
+        transform: rotate(270deg);
+    } 100% {
+        transform: rotate(360deg);
     }
 }

@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react";
+
 // IMPORTANDO COMPONENTS
 import { Header } from "../src/app/Components/Header/page";
 import { Footer } from "../src/app/Components/Footer/page";
@@ -6,7 +8,39 @@ import Head from "next/head";
 import styles from './home.module.css';
 import { motion } from "framer-motion";
 
+const MAX_PHRASES = 6;
+
 export default function Home() {
+
+  // MUDANDO FRASES
+
+  const [phraseIndex, setPhraseIndex] = useState(0);
+
+  const icons = ["💡", "🚀", "🌟", "🦸‍♂️", "🧙‍♂️", "🛸"];
+  const texts = [
+    "A persistência é o caminho do êxito.",
+    "O sucesso é a soma de pequenos esforços repetidos dia após dia.",
+    "Acredite em si próprio e todo o resto ficará mais fácil.",
+    "Com grandes poderes, vêm grandes responsabilidades.",
+    "Não é nossa habilidade que mostra quem realmente somos... são nossas escolhas.",
+    "A verdade está lá fora."
+  ];
+  const authors = [
+    "Charles Chaplin",
+    "Robert Collier",
+    "Norman Vincent Peale",
+    "Tio Ben (Homem-Aranha)",
+    "Dumbledore (Harry Potter)",
+    "Fox Mulder (Arquivo X)"
+  ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setPhraseIndex((prevIndex) => (prevIndex + 1) % MAX_PHRASES);
+    }, 4000);
+    return () => clearInterval(interval);
+  }, [phraseIndex]);
+
   return (
     <div>
       <Head>
@@ -39,16 +73,16 @@ export default function Home() {
 
         <div className={styles.divHomePhrase}>
           <h2>
-            frase que carrego comigo...
+            frases que carrego comigo...
           </h2>
           <p className={styles.divHomePhraseIcon}>
-            🧬
+            {icons[phraseIndex]}
           </p>
           <span className={styles.divHomePhraseText}>
-            "com conhecimento moldamos o presente, com paciência construímos o futuro, e com sabedoria colhemos os frutos de nossos sonhos."
+            {texts[phraseIndex]}
           </span>
           <p className={styles.divHomePhraseAuthor}>
-            por <strong>vitor ^^</strong>
+            por <strong>{authors[phraseIndex]}</strong>
           </p>
         </div>
 
