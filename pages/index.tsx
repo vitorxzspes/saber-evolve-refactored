@@ -5,6 +5,7 @@ import { Header } from "../src/app/Components/Header/page";
 import { Footer } from "../src/app/Components/Footer/page";
 
 import { ProjectsCMHub } from "./projetos/pessoais";
+import { ProjectsAmos } from "./projetos/pessoais";
 
 import Head from "next/head";
 import styles from './home.module.css';
@@ -214,6 +215,7 @@ export default function Home() {
           <h2>meus projetos</h2>
           <p>alguns dos projetos que eu já desenvolvi:</p>
           <ProjectsCMHub/>
+          <ProjectsAmos/>
         </div>
 
       </motion.div>

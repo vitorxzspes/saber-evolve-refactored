@@ -9,6 +9,7 @@ import Image from 'next/image';
 // IMPORTANDO IMAGENS
 
 import logoCMHub from '../../public/images/logo_CMHub.png';
+import logoAmos from '../../public/images/amos_logo_principal.png';
 
 export default function Pessoais() {
     return (
@@ -29,6 +30,8 @@ export default function Pessoais() {
                     aqui vão alguns dos projetos pessoais que eu fiz, espero que gostem!
                 </p>
                 <ProjectsCMHub/>
+                <h2 className={styles.h2TitleProjects}>outro projeto meu, uma IA usando a API da OpenAI!</h2>
+                <ProjectsAmos/>
             </motion.div>
             <Footer/>
         </div>
@@ -102,4 +105,59 @@ export function ProjectsCMHub() {
             </section>
         </div>
     )
+}
+
+export function ProjectsAmos() {
+    return (
+        <div className={styles.projectsamos}>
+            <h2>👧 - Amos</h2>
+            <Image src={logoAmos} alt="Logo da AMÓS" className={styles.logos}/>
+            <p>
+                Acesse aqui amiga virtual inteligente projetada para apoiar e aprimorar o desenvolvimento pessoal. Com foco em autoaperfeiçoamento, a AMÓS oferece conselhos personalizados, orientações e ferramentas para ajudar os usuários a alcançar seus objetivos, desenvolver novas habilidades e manter a motivação.
+            </p>
+            <h2>Endereço do site</h2>
+            <button>
+                <a href="https://amos-jet.vercel.app/" target="_blank" className={styles.buttonLinkSite}>
+                    Clique aqui para acessar o site! 🚀
+                </a>
+            </button>
+            <h2>💻 - Tecnologias</h2>
+            <ul>
+                <li>React</li>
+                <li>Vite</li>
+                <li>TypeScript</li>
+                <li>Babel</li>
+                <li>Jest</li>
+                <li>CSS modules</li>
+            </ul>
+            <h2>💪 - Desenvolvimento Pessoal</h2>
+            <p>
+                Ser uma pessoa melhor requer esforço e vontade, mas também ajuda, e aqui estou eu para lhe ajudar a ser guiado nesse caminho ✌️
+            </p>
+            <h2>🤖 - Machine Learning</h2>
+            <p>
+                Usarei capacidades estatísticas para encontrar padrões e achar respostas para os resultados esperados.
+            </p>
+            <h2>💚 - Funcionalidades</h2>
+            <ul>
+                <li>Conselhos Personalizados: AMÓS fornece orientações adaptadas às necessidades e metas individuais de cada usuário.</li>
+                <li>Gestão de Metas: Ajude a definir, monitorar e alcançar metas pessoais de forma eficaz.</li>
+                <li>Sugestões de Habilidades: Identifique e desenvolva novas habilidades que podem ser valiosas para o crescimento pessoal e profissional.</li>
+                <li>Monitoramento de Progresso: Acompanhe o progresso ao longo do tempo, com relatórios e insights detalhados.</li>
+                <li>Motivação e Apoio: Receba mensagens motivacionais e lembretes para manter o foco e a disciplina.</li>
+            </ul>
+            <h2>🛠️ - Contribuição</h2>
+            <p>
+                Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+            </p>
+            <h2>📄 - Licença</h2>
+            <p>
+                Este projeto está licenciado sob a Licença MIT. 
+            </p>
+            <h2>📞 - Contato</h2>
+            <p>
+                Para mais informações, entre em contato com <a href="mailto:vitor69776@estudante.ifb.edu.br">vitor69776@estudante.ifb.edu.br</a>.
+            </p>
+        </div>
+    );
 }
