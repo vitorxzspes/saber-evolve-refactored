@@ -60,6 +60,23 @@ footer {
 
 /* ELEMENTS */
 
+button {
+    font: var(--font-secondary);
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: solid var(--color-tertiary);
+    border-radius: 0.5rem;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: var(--color-primary);
+        color: var(--color-tertiary);
+    }
+}
+
 img {
     max-width: 100%;
 }

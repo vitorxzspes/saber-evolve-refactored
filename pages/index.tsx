@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 import { Header } from "../src/app/Components/Header/page";
 import { Footer } from "../src/app/Components/Footer/page";
 
+import { ProjectsCMHub } from "./projetos/pessoais";
+
 import Head from "next/head";
 import styles from './home.module.css';
 import { motion } from "framer-motion";
@@ -175,6 +177,8 @@ export default function Home() {
                     <li>Prisma</li>
                     <li>Jest</li>
                     <li>Webpack</li>
+                    <li>Zod</li>
+                    <li>jsonwebtoken</li>
                     <li>Vite</li>
                     <li>Styled Components</li>
                   </ul>
@@ -206,7 +210,12 @@ export default function Home() {
 
         <hr/>
 
-{/* DIVHOMEPROTOTIPOS */}
+        <div className={styles.divHomeProjects}>
+          <h2>meus projetos</h2>
+          <p>alguns dos projetos que eu já desenvolvi:</p>
+          <ProjectsCMHub/>
+        </div>
+
       </motion.div>
       <Footer />
     </div>

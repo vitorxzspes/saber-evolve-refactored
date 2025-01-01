@@ -1,0 +1,26 @@
+.divPessoais {
+    margin: 1rem;
+}
+
+.projectscmhub {
+    text-align: center;
+    max-width: 100%;
+}
+
+.projectscmhub {
+    max-width: 100%;
+}
+
+.logos {
+    width: fit-content;
+    height: auto;
+    max-width: 100%;
+}
+
+.buttonLinkSite {
+    color: var(--color-secondary);
+}
+
+.iframesProjects {
+    max-width: 100%;
+}
