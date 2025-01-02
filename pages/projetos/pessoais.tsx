@@ -10,6 +10,7 @@ import Image from 'next/image';
 
 import logoCMHub from '../../public/images/logo_CMHub.png';
 import logoAmos from '../../public/images/amos_logo_principal.png';
+import logoTaskpilot from '../../public/images/logo_taskpilot.png';
 
 export default function Pessoais() {
     return (
@@ -41,7 +42,7 @@ export default function Pessoais() {
 export function ProjectsCMHub() {
     return (
         <div className={styles.projectscmhub}>
-            <h2>CMHub</h2>
+            <h1>CMHub</h1>
             <Image src={logoCMHub} alt="Logo do CMHub" className={styles.logos}/>
             <p>
                 conecte-se com os outros!
@@ -110,7 +111,7 @@ export function ProjectsCMHub() {
 export function ProjectsAmos() {
     return (
         <div className={styles.projectsamos}>
-            <h2>👧 - Amos</h2>
+            <h1>👧 - Amos</h1>
             <Image src={logoAmos} alt="Logo da AMÓS" className={styles.logos}/>
             <p>
                 Acesse aqui amiga virtual inteligente projetada para apoiar e aprimorar o desenvolvimento pessoal. Com foco em autoaperfeiçoamento, a AMÓS oferece conselhos personalizados, orientações e ferramentas para ajudar os usuários a alcançar seus objetivos, desenvolver novas habilidades e manter a motivação.
@@ -160,4 +161,64 @@ export function ProjectsAmos() {
             </p>
         </div>
     );
+}
+
+export function ProjectsTaskpilot() {
+    return (
+        <div className={styles.projectstaskpilot}>
+            <h1>TaskPilot</h1>
+            <Image src={logoTaskpilot} alt="Logo do TaskPilot" className={styles.logos}/>
+            <p>
+                gerencie suas tarefas com facilidade!
+            </p>
+            <h2>Apresentação</h2>
+            <iframe className={styles.iframesProjects} width="280" height="315" src="https://www.youtube.com/embed/HjQTLMQcU8w?si=sg3DQ8sCSv0f7TVb" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            <h2>Prévia</h2>
+            <button>
+                <a href="https://taskpilot-eta.vercel.app/" target="_blank" className={styles.buttonLinkSite}>
+                    Clique aqui para acessar o site! 🚀
+                </a>    
+            </button>
+            <p>TaskPilot é um website de gerenciamento de tarefas projetado para ajudar você a organizar e acompanhar suas atividades diárias de forma eficiente.</p>
+        
+            <section>
+                <h2>📒 Funcionalidades</h2>
+                <ul>
+                    <li>Criação</li>
+                    <li>Edição</li>
+                    <li>Exclusão</li>
+                    <li>Visualização</li>
+                    <li>Filtragem e pesquisa</li>
+                </ul>
+            </section>
+        
+            <section>
+                <h2>🖥 Tecnologias Utilizadas</h2>
+                <ul>
+                    <li>React</li>
+                    <li>Node</li>
+                    <li>Webpack, Babel</li>
+                    <li>TypeScript / JSX / JavaScript</li>
+                    <li>Express</li>
+                    <li>Zod</li>
+                    <li>Jest</li>
+                    <li>Beekeeper</li>
+                    <li>Docker</li>
+                    <li>Prisma</li>
+                    <li>JWT</li>
+                    <li>bcrypt</li>
+                </ul>
+            </section>
+        
+            <section>
+                <h2>🤝 Contribuição</h2>
+                <p>Fique à vontade para contribuir como quiser, seja com código, feedback ou sugestão! Você é bem-vindo 😉</p>
+            </section>
+        
+            <section>
+                <h2>📞 Contato</h2>
+                <p>Para mais informações, entre em contato pelo e-mail: <a href="mailto:vitor69776@estudante.ifb.edu.br">vitor69776@estudante.ifb.edu.br</a> ou WhatsApp.</p>
+            </section>
+        </div>
+    )
 }

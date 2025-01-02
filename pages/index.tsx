@@ -4,8 +4,10 @@ import { useState, useEffect } from "react";
 import { Header } from "../src/app/Components/Header/page";
 import { Footer } from "../src/app/Components/Footer/page";
 
+// PROJECTS
 import { ProjectsCMHub } from "./projetos/pessoais";
 import { ProjectsAmos } from "./projetos/pessoais";
+import { ProjectsTaskpilot } from "./projetos/pessoais";
 
 import Head from "next/head";
 import styles from './home.module.css';
@@ -216,6 +218,7 @@ export default function Home() {
           <p>alguns dos projetos que eu já desenvolvi:</p>
           <ProjectsCMHub/>
           <ProjectsAmos/>
+          <ProjectsTaskpilot/>
         </div>
 
       </motion.div>

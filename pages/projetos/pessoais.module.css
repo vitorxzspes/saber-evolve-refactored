@@ -2,9 +2,10 @@
     margin: 1rem;
 }
 
-.projectscmhub, .projectsamos {
+.projectscmhub, .projectsamos, .projectstaskpilot {
     text-align: center;
     max-width: 100%;
+    margin: 7rem 0;
 }
 
 .logos {
