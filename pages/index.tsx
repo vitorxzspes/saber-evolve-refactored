@@ -8,6 +8,8 @@ import { Footer } from "../src/app/Components/Footer/page";
 import { ProjectsCMHub } from "./projetos/pessoais";
 import { ProjectsAmos } from "./projetos/pessoais";
 import { ProjectsTaskpilot } from "./projetos/pessoais";
+import { ProjectsEConvert } from "./projetos/pessoais";
+import { ProjectsResolveTudo } from "./projetos/pessoais";
 
 import Head from "next/head";
 import styles from './home.module.css';
@@ -219,6 +221,8 @@ export default function Home() {
           <ProjectsCMHub/>
           <ProjectsAmos/>
           <ProjectsTaskpilot/>
+          <ProjectsEConvert/>
+          <ProjectsResolveTudo/>
         </div>
 
       </motion.div>

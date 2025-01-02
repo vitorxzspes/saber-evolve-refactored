@@ -11,6 +11,8 @@ import Image from 'next/image';
 import logoCMHub from '../../public/images/logo_CMHub.png';
 import logoAmos from '../../public/images/amos_logo_principal.png';
 import logoTaskpilot from '../../public/images/logo_taskpilot.png';
+import logoEConvert from '../../public/images/logo_econvert.png';
+import logoResolveTudo from '../../public/images/logo_resolve_tudo.png';
 
 export default function Pessoais() {
     return (
@@ -33,6 +35,12 @@ export default function Pessoais() {
                 <ProjectsCMHub/>
                 <h2 className={styles.h2TitleProjects}>outro projeto meu, uma IA usando a API da OpenAI!</h2>
                 <ProjectsAmos/>
+                <h2 className={styles.h2TitleProjects}>gerenciador de tarefas</h2>
+                <ProjectsTaskpilot/>
+                <h2 className={styles.h2TitleProjects}>conversor de unidades</h2>
+                <ProjectsEConvert/>
+                <h2 className={styles.h2TitleProjects}>resolva tudo! muitos módulos de cálculos para você explorar!</h2>
+                <ProjectsResolveTudo/>
             </motion.div>
             <Footer/>
         </div>
@@ -218,6 +226,181 @@ export function ProjectsTaskpilot() {
             <section>
                 <h2>📞 Contato</h2>
                 <p>Para mais informações, entre em contato pelo e-mail: <a href="mailto:vitor69776@estudante.ifb.edu.br">vitor69776@estudante.ifb.edu.br</a> ou WhatsApp.</p>
+            </section>
+        </div>
+    )
+}
+
+export function ProjectsEConvert() {
+    return (
+        <div className={styles.projectseconvert}>
+            <h1>eConvert</h1>
+            <Image src={logoEConvert} alt="Logo do eConvert" className={styles.logos}/>
+            <p>
+                aqui você poderá ver em qualquer métrica!
+            </p>
+            <button>
+                <a href="https://vitukjkk.github.io/eConvert-PAGES/" target="_blank" className={styles.buttonLinkSite}>
+                    Clique aqui para acessar o site! 🚀
+                </a>
+            </button>
+            <h2>Apresentação</h2>
+            <iframe className={styles.iframesProjects} width="280" height="315" src="https://www.youtube.com/embed/Pb9DRr4fERg?si=vZQjKMqsRw2xhTto" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            <p>
+                eConvert é uma aplicação web que facilita a conversão de diversos tipos de dados. O projeto é capaz de converter documentos, imagens, medidas, moedas, unidades, texto, cores, vídeos e áudio, oferecendo uma interface intuitiva e prática para os usuários.
+            </p>
+            <h3>💻 Tecnologias Utilizadas</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>TypeScript / JavaScript</li>
+                <li>babel, webpack</li>
+                <li>Node.js</li>
+            </ul>
+
+            <h3>🤝 Contribuição</h3>
+            <p>Fique livre, leve e solto para contribuir como quiser, toda ajuda é bem-vinda! Qualquer coisa é só me chamar 👊</p>
+
+            <h3>🖥 Responsividade</h3>
+            <p>Fiz para adaptar às diferentes telas!</p>
+
+            <h3>🚀 Funcionalidades / Módulos</h3>
+            <ul>
+                <li><strong>Unidades de conversão</strong></li>
+                <ul>
+                    <li><strong>Massa</strong></li>
+                    <ul>
+                        <li>Quilograma (kg)</li>
+                        <li>Grama (g)</li>
+                        <li>Miligrama (mg)</li>
+                        <li>Tonelada (t)</li>
+                        <li>Libra (lb)</li>
+                        <li>Onça (oz)</li>
+                    </ul>
+                    <br/>                    
+                    <li><strong>Comprimento</strong></li>
+                    <ul>
+                        <li>Metro (m)</li>
+                        <li>Centímetro (cm)</li>
+                        <li>Milímetro (mm)</li>
+                        <li>Quilômetro (km)</li>
+                        <li>Polegada (in)</li>
+                        <li>Pé (ft)</li>
+                        <li>Jarda (yd)</li>
+                        <li>Milha (mi)</li>
+                    </ul>
+                    <br/>
+                    <li><strong>Temperatura</strong></li>
+                    <ul>
+                        <li>Celsius (°C)</li>
+                        <li>Fahrenheit (°F)</li>
+                        <li>Kelvin (K)</li>
+                    </ul>
+                    <br/>
+                    <li><strong>Velocidade</strong></li>
+                    <ul>
+                        <li>Metros por segundo (m/s)</li>
+                        <li>Quilômetros por hora (km/h)</li>
+                        <li>Milhas por hora (mph)</li>
+                        <li>Nós (knots)</li>
+                    </ul>
+                    <br/>
+                    <li><strong>Área</strong></li>
+                    <ul>
+                        <li>Metro quadrado (m²)</li>
+                        <li>Centímetro quadrado (cm²)</li>
+                        <li>Quilômetro quadrado (km²)</li>
+                        <li>Hectare (ha)</li>
+                        <li>Acre</li>
+                    </ul>
+                    <br/>
+                    <li><strong>Volume</strong></li>
+                    <ul>
+                        <li>Metro cúbico (m³)</li>
+                        <li>Litro (L)</li>
+                        <li>Mililitro (ml)</li>
+                        <li>Centímetro cúbico (cm³)</li>
+                        <li>Quilômetro cúbico (km³)</li>
+                        <li>Galão (gal)</li>
+                        <li>Galão americano (3,785 L)</li>
+                        <li>Galão imperial (4,546 L)</li>
+                        <li>Barril de petróleo (~ 159 L)</li>
+                    </ul>
+                    <br/>
+                    <li><strong>Tempo</strong></li>
+                    <ul>
+                        <li>Segundo (s)</li>
+                        <li>Minuto (min)</li>
+                        <li>Hora (h)</li>
+                        <li>Dia (d)</li>
+                        <li>Semana</li>
+                        <li>Mês</li>
+                        <li>Ano (a)</li>
+                    </ul>
+                </ul>
+            </ul>
+            <p>PS: esses são os módulos que coloquei até agora, se tiver mais sugestões é só falar! #TMJ</p>
+        </div>
+    )
+}
+
+export function ProjectsResolveTudo() {
+    return (
+        <div className={styles.projectsresolvetudo}>
+            <h1>Resolve Tudo</h1>
+            <Image src={logoResolveTudo} alt="Logo do Resolve Tudo" className={styles.logos}/>
+            <p>
+                software inteligente para lhe ajudar com cálculos de diversas áreas!
+            </p>
+            <button>
+                <a href="https://vitukjkk.github.io/Resolve-Tudo-PAGES/" target="_blank">
+                    Clique aqui para acessar o site! 🚀
+                </a>
+            </button>
+            <h2>Apresentação</h2>
+            <iframe className={styles.iframesProjects} width="280" height="315" src="https://www.youtube.com/embed/6ihBN2qjNIo?si=KM4XijKj7dvqok_r" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            <p>
+                Um site web desenvolvido para facilitar a realização de diversos tipos de cálculos. Seja para fins acadêmicos, profissionais ou pessoais, o Resolve Tudo oferece uma interface intuitiva para cálculos rápidos e precisos.
+            </p>  
+            <section>
+                <h2>🖥 Tecnologias</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>TypeScript / JavaScript</li>
+                    <li>Webpack</li>
+                    <li>Node.js</li>
+                    <li>Módulos</li>
+                </ul>
+            </section>
+        
+            <section>
+                <h2>🤝 Contribuição</h2>
+                <p>Se for sua vontade, seja livre! Adorarei sua participação. Qualquer coisa, me contate, viu?</p>
+            </section>
+        
+            <section>
+                <h2>🚗 Praticidade</h2>
+                <p>Com poucos cliques você encontra sua resposta.</p>
+            </section>
+        
+            <section>
+                <h2>😴 Facilidade</h2>
+                <p>Calcular nunca foi tão fácil!</p>
+            </section>
+        
+            <section>
+                <h2>🖊️ Funcionalidades / Cálculos / Módulos</h2>
+                <ul>
+                    <li><strong>Básica:</strong> soma, subtração, multiplicação e divisão.</li>
+                    <li><strong>Matemática:</strong> radiciação, exponenciação, porcentagem, módulos e fatorial.</li>
+                    <li><strong>Científica:</strong> em implementação.</li>
+                    <li><strong>Financeira:</strong> juros simples e compostos, valor presente e futuro, amortização.</li>
+                    <li><strong>Gráfica:</strong> em breve!</li>
+                    <li><strong>Estatística:</strong> média, moda, mediana, desvio padrão, variância e coeficiente, máximo e mínimo.</li>
+                    <li><strong>Engenharia:</strong> vem por aí 🫠.</li>
+                </ul>
+                <p>PS: Esses são os módulos que botei até agora, com o tempo e sugestões adiciono mais!</p>
             </section>
         </div>
     )
