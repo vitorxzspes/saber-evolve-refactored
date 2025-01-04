@@ -1,0 +1,18 @@
+.divMobile {
+    margin: 1rem;
+}
+
+.divMobileProjectsImages {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgMobileProjectsImages {
+    margin: .5rem auto;
+    
+    width: 500px;
+    height: auto;
+
+    border: solid var(--color-secondary);
+    border-radius: 1rem;
+}

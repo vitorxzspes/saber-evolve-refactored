@@ -43,6 +43,7 @@ export function Header() {
                             <Link href="/projetos/pessoais"><li className={styles.liHeader}>Pessoais</li></Link>
                             <Link href="/projetos/rocketseat"><li className={styles.liHeader}>Rocketseat</li></Link>
                             <Link href="/projetos/clientes"><li className={styles.liHeader}>Clientes</li></Link>
+                            <Link href="/projetos/mobile"><li className={styles.liHeader}>Mobile</li></Link>
                         </ul>
                     </motion.div>
                 )}
