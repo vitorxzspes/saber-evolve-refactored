@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 // IMPORTANDO COMPONENTS
 import { Header } from "../src/app/Components/Header/page";
@@ -193,7 +194,7 @@ export default function Home() {
                   <h3>Bancos de Dados</h3>
                   <ul>
                     <li>PostgreSQL</li>
-                    <li>SQLite</li>
+                    <li>SQstLite</li>
                     <li>MongoDB</li>
                   </ul>
                 </div>
@@ -218,13 +219,20 @@ export default function Home() {
         <div className={styles.divHomeProjects}>
           <h2>meus projetos</h2>
           <p>alguns dos projetos que eu já desenvolvi:</p>
-          <ProjectsCMHub/>
-          <ProjectsAmos/>
-          <ProjectsTaskpilot/>
-          <ProjectsEConvert/>
-          <ProjectsResolveTudo/>
+          <div className={styles.divHomeProjectsSquares}>
+            <ProjectsCMHub/>
+            <ProjectsAmos/>
+            <ProjectsTaskpilot/>
+            <ProjectsEConvert/>
+            <ProjectsResolveTudo/>
+          </div>
         </div>
 
+        <h2>por enquanto...</h2>
+
+        <p>
+          esses são alguns dos projetos que já fiz, você pode conferir a lista completa na página projetos. 🧬
+        </p>
       </motion.div>
       <Footer />
     </div>
