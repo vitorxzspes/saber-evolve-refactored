@@ -2,9 +2,10 @@ import { Header } from "@/app/Components/Header/page";
 import { Footer } from "@/app/Components/Footer/page";
 
 import Head from "next/head";
+import Link from "next/link";
+import Image from 'next/image';
 import styles from './pessoais.module.css';
 import { motion } from "framer-motion";
-import Image from 'next/image';
 
 // IMPORTANDO IMAGENS
 
@@ -41,6 +42,11 @@ export default function Pessoais() {
                 <ProjectsEConvert/>
                 <h2 className={styles.h2TitleProjects}>resolva tudo! muitos módulos de cálculos para você explorar!</h2>
                 <ProjectsResolveTudo/>
+
+                <h2>de pessoais é isso...</h2>
+                <p>
+                    espero que tenham gostado dos projetos que fiz, fique à vontade para me contatar e contribuir com eles! 😊 Também tenho projetos feitos pela <Link href="/projetos/rocketseat">Rocketseat</Link> e pra <Link href="/projetos/clientes">Clientes</Link>, onde você pode ver nas páginas.
+                </p>
             </motion.div>
             <Footer/>
         </div>
