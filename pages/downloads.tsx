@@ -339,7 +339,19 @@ export default function Downloads() {
                             <h2>Mobile</h2>
                         </div>
                         <div className={styles.divDownloadsContentBody}>
-                            <p>ola mundo!</p>
+                            <h2>Taskpilot</h2>
+                            <Image className={styles.imgLogo} src={logoTaskpilot} alt="Logo Taskpilot" />
+                            <p>
+                                versão mobile do TaskPilot
+                            </p>
+                            <h3>PLATAFORMAS</h3>
+                            <a href={projectsVar.pessoais.taskpilot.mobile} target="_blank" rel="noreferrer">
+                                <Image className={styles.imgIcons} src={icon_mobile} alt="Mobile" />
+                            </a>
+                            <h3>REPOSITÓRIOS</h3>
+                            <a href={projectsVar.mobile.taskpilot.rep_front_end} target="_blank" rel="noreferrer">
+                                <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
+                            </a>
                         </div>
                     </div>
                 </div>

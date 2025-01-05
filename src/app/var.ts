@@ -100,5 +100,11 @@ export const projectsVar = {
             // REPOSITÓRIOS
             rep_front_end: process.env.NEXT_PUBLIC_REPOSITORIO_OBRIGADO_POR_HOJE_FRONT_END,
         }
+    },
+    mobile: {
+        taskpilot: {
+            // REPOSITÓRIOS
+            rep_front_end: process.env.NEXT_PUBLIC_REPOSITORIO_TASKPILOT_MOBILE,
+        }
     }
 }
