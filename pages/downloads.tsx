@@ -32,6 +32,10 @@ import logoSorteador from '../public/images/downloads rocketseat/sorteador_numer
 import logoPetShop from '../public/images/downloads rocketseat/agendamento_pet_shop.png';
 import logoHairDay from '../public/images/downloads rocketseat/hair_day.png';
 
+// CLIENTES
+import logoPizzariaMay from '../public/images/downloads clientes/logo_pizzaria_may.png';
+import logoObrigadoPorHoje from '../public/images/downloads clientes/logo_obrigado_por_hoje.png';
+
 export default function Downloads() {
     return (
         <div>
@@ -278,7 +282,7 @@ export default function Downloads() {
                                     <h2>Hair Day</h2>
                                     <Image className={styles.imgLogo} src={logoHairDay} alt="Logo" />
                                     <p>
-                                      agendamento de serviços em salões
+                                      agendamento de serviços em salões.
                                     </p>
                                     <h3>REPOSITÓRIOS</h3>
                                     <a href={projectsVar.rocketseat.hair_day.rep_front_end} target="_blank" rel="noreferrer">
@@ -297,7 +301,36 @@ export default function Downloads() {
                             <h2>Clientes</h2>
                         </div>
                         <div className={styles.divDownloadsContentBody}>
-                            <p>ola mundo!</p>
+                            <div className={styles.divDownloadsContentBodyItem}>
+                                <div className={styles.divDownloadsContentBodyItemLeft}>
+                                    <h2>🍕 Pizzaria e Hamburgueria da May</h2>
+                                    <Image className={styles.imgLogo} src={logoPizzariaMay} alt="Logo" />
+                                    <p>
+                                        site para pizzaria e hamburgueria.
+                                    </p>
+                                    <h3>REPOSITÓRIOS</h3>
+                                    <a href={projectsVar.clientes.pizzaria_may.site_link} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_site} alt="Website" />
+                                    </a>
+                                    <a href={projectsVar.clientes.pizzaria_may.rep_front_end} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
+                                    </a>
+                                </div>
+                                <div className={styles.divDownloadsContentBodyItemRight}>
+                                    <h2>Obrigado Por Hoje</h2>
+                                    <Image className={styles.imgLogo} src={logoObrigadoPorHoje} alt="Logo Obrigado Por Hoje" />
+                                    <p>
+                                        site para exercitar gratidão.
+                                    </p>
+                                    <h3>REPOSITÓRIOS</h3>
+                                    <a href={projectsVar.clientes.obrigado_por_hoje.site_link} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_site} alt="Website" />
+                                    </a>
+                                    <a href={projectsVar.clientes.obrigado_por_hoje.rep_front_end} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
 

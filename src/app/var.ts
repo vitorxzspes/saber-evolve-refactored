@@ -86,5 +86,19 @@ export const projectsVar = {
             // REPOSITÓRIOS
             rep_front_end: process.env.NEXT_PUBLIC_REPOSITORIO_HAIR_DAY_FRONT_END,
         }
+    },
+    clientes: {
+        pizzaria_may: {
+            // INTERFACES
+            site_link: process.env.NEXT_PUBLIC_INTERFACE_PIZZARIA_MAY_FRONT_END,
+            // REPOSITÓRIOS
+            rep_front_end: process.env.NEXT_PUBLIC_REPOSITORIO_PIZZARIA_MAY_FRONT_END,
+        },
+        obrigado_por_hoje: {
+            // INTERFACES
+            site_link: process.env.NEXT_PUBLIC_INTERFACE_OBRIGADO_POR_HOJE_FRONT_END,
+            // REPOSITÓRIOS
+            rep_front_end: process.env.NEXT_PUBLIC_REPOSITORIO_OBRIGADO_POR_HOJE_FRONT_END,
+        }
     }
 }
