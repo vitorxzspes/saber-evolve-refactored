@@ -21,7 +21,7 @@ export const projectsVar = {
             rep_back_end: process.env.NEXT_PUBLIC_REPOSITORIO_AMOS_BACK_END,
         },
         taskpilot: {
-            // INTERFACES
+            // INTERFACES   
             api: process.env.NEXT_PUBLIC_INTERFACE_TASKPILOT_BACK_END,
             site_link: process.env.NEXT_PUBLIC_INTERFACE_TASKPILOT_FRONT_END,
             mobile: process.env.NEXT_PUBLIC_INTERFACE_TASKPILOT_MOBILE,
@@ -39,6 +39,40 @@ export const projectsVar = {
             // REPOSITÓRIOS
             rep_front_end: process.env.NEXT_PUBLIC_REPOSITORIO_ECONVERT_FRONT_END,
             rep_back_end: process.env.NEXT_PUBLIC_REPOSITORIO_ECONVERT_BACK_END,
+        },
+        resolve_tudo: {
+            // INTERFACES
+            api: process.env.NEXT_PUBLIC_INTERFACE_RESOLVE_TUDO_BACK_END,
+            site_link: process.env.NEXT_PUBLIC_INTERFACE_RESOLVE_TUDO_FRONT_END,
+            mobile: process.env.NEXT_PUBLIC_INTERFACE_RESOLVE_TUDO_MOBILE,
+            windows: process.env.NEXT_PUBLIC_INTERFACE_RESOLVE_TUDO_WINDOWS,
+            // REPOSITÓRIOS
+            rep_front_end: process.env.NEXT_PUBLIC_REPOSITORIO_RESOLVE_TUDO_FRONT_END,
+            rep_back_end: process.env.NEXT_PUBLIC_REPOSITORIO_RESOLVE_TUDO_BACK_END,
+        },
+        notas_saber: {
+            // INTERFACES
+            api: process.env.NEXT_PUBLIC_INTERFACE_NOTAS_SABER_BACK_END,
+            site_link: process.env.NEXT_PUBLIC_INTERFACE_NOTAS_SABER_FRONT_END,
+            mobile: process.env.NEXT_PUBLIC_INTERFACE_NOTAS_SABER_MOBILE,
+            windows: process.env.NEXT_PUBLIC_INTERFACE_NOTAS_SABER_WINDOWS,
+            // REPOSITÓRIOS
+            rep_front_end: process.env.NEXT_PUBLIC_REPOSITORIO_NOTAS_SABER_FRONT_END,
+            rep_back_end: process.env.NEXT_PUBLIC_REPOSITORIO_NOTAS_SABER_BACK_END,
+        }
+    },
+    rocketseat: {
+        local_turistico: {
+            // INTERFACES
+            site_link: process.env.NEXT_PUBLIC_INTERFACE_LOCAL_TURISTICO_FRONT_END,
+            // REPOSITÓRIOS
+            rep_front_end: process.env.NEXT_PUBLIC_REPOSITORIO_LOCAL_TURISTICO_FRONT_END,
+        },
+        sorteador_numeros: {
+            // INTERFACES
+            site_link: process.env.NEXT_PUBLIC_INTERFACE_SORTEADOR_NUMEROS_FRONT_END,
+            // REPOSITÓRIOS
+            rep_front_end: process.env.NEXT_PUBLIC_REPOSITORIO_SORTEADOR_NUMEROS_FRONT_END,
         }
     }
 }

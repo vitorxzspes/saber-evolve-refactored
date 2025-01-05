@@ -38,8 +38,7 @@ export  default function Sobre() {
 
                 <h2>#TMJ</h2>
         
-                <div className={styles.
-                }>
+                <div className={styles.divSobreContacts}>
                     <div className={styles.divSobreContactsOne}>
                         <a href="https://www.linkedin.com/in/vitor-colombelli" target="_blank">
                             <Image src={logoLinkedIn} alt="Ícone do LinkedIn"/>
@@ -85,5 +84,5 @@ export  default function Sobre() {
             </motion.div>
             <Footer />
         </div>
-    );
+    )
 }

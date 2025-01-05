@@ -14,11 +14,21 @@ import icon_site from '../public/icons/icon_site.svg';
 import icon_windows from '../public/icons/icon_windows.svg';
 import icon_api from '../public/icons/icon_api.svg';
 
+import icon_gitHub from '../public/icons/social_media/github pequeno.png';
+
+// LOGOS PROJETOS
+
+// PESSOAIS
 import logoCMHub from '../public/images/logo_CMHub.png';
 import logoAmos from '../public/images/amos_logo_principal.png';
 import logoTaskpilot from '../public/images/logo_taskpilot.png';
 import logoEConvert from '../public/images/logo_econvert.png';
 import logoResolveTudo from '../public/images/logo_resolve_tudo.png';
+import logoNotasSaber from '../public/images/logo_notas_do_saber.png';
+
+// ROCKETSEAT
+import logoLocalTuristico from '../public/images/downloads rocketseat/local_turistico.png';
+import logoSorteador from '../public/images/downloads rocketseat/sorteador_numeros.png';
 
 export default function Downloads() {
     return (
@@ -153,6 +163,63 @@ export default function Downloads() {
                                 </div>
                             </div>
                         </div>
+
+                        <hr/>
+
+                        <div className={styles.divDownloadsContentBodyItem}>
+                            <div className={styles.divDownloadsContentBodyItemLeft}>
+                                <h2>Resolve Tudo</h2>
+                                <Image className={styles.imgLogo} src={logoResolveTudo} alt="Logo Resolve Tudo" />
+                                <p>Resolve Tudo é um software com diversos cálculos disponíveis para você usar!</p>
+                                <h3>PLATAFORMAS</h3>
+                                <a href={projectsVar.pessoais.resolve_tudo.site_link} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_site} alt="Site" />
+                                </a>
+                                <a href={projectsVar.pessoais.resolve_tudo.windows} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_windows} alt="Windows" />
+                                </a>
+                                <a href={projectsVar.pessoais.resolve_tudo.mobile} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_mobile} alt="Mobile" />
+                                </a>
+                                <h3>API</h3>
+                                <a href={projectsVar.pessoais.resolve_tudo.api} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_api} alt="API" />
+                                </a>
+                                <h3>REPOSITÓRIOS</h3>
+                                <a href={projectsVar.pessoais.resolve_tudo.rep_front_end} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_front_end} alt="Front-end" />
+                                </a>
+                                <a href={projectsVar.pessoais.resolve_tudo.rep_back_end} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_back_end} alt="Back-end" />
+                                </a>
+                            </div>
+                            <div className={styles.divDownloadsContentBodyItemRight}>
+                                <h2>Notas do Saber</h2>
+                                <Image className={styles.imgLogo} src={logoNotasSaber} alt="Logo Notas do Saber" />
+                                <p>Notas do Saber é uma ferramenta de notas aninhadas.</p>
+                                <h3>PLATAFORMAS</h3>
+                                <a href={projectsVar.pessoais.notas_saber.site_link} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_site} alt="Site" />
+                                </a>
+                                <a href={projectsVar.pessoais.notas_saber.windows} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_windows} alt="Windows" />
+                                </a>
+                                <a href={projectsVar.pessoais.notas_saber.mobile} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_mobile} alt="Mobile" />
+                                </a>
+                                <h3>API</h3>
+                                <a href={projectsVar.pessoais.notas_saber.api} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_api} alt="API" />
+                                </a>
+                                <h3>REPOSITÓRIOS</h3>
+                                <a href={projectsVar.pessoais.notas_saber.rep_front_end} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_front_end} alt="Front-end" />
+                                </a>
+                                <a href={projectsVar.pessoais.notas_saber.rep_back_end} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_back_end} alt="Back-end" />
+                                </a>
+                            </div>
+                        </div>
                     </div>
 
                     <div className={styles.divDownloadsContent}>
@@ -160,7 +227,37 @@ export default function Downloads() {
                             <h2>Rocketseat</h2>
                         </div>
                         <div className={styles.divDownloadsContentBody}>
-                            <p>ola mundo!</p>
+                            <div className={styles.divDownloadsContentBodyItem}>
+                                <div className={styles.divDownloadsContentBodyItemLeft}>
+                                    <h2>Local Turístico</h2>
+                                    <Image className={styles.imgLogo} src={logoLocalTuristico} alt="Logo" />
+                                    <p>
+                                        um dos meus primeiros projetos com a Rocketseat, um site de turismo local.
+                                    </p>
+                                    <h3>REPOSITÓRIOS</h3>
+                                    <a href={projectsVar.rocketseat.local_turistico.rep_front_end} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_site} alt="Website" />
+                                    </a>
+                                    <a href={projectsVar.rocketseat.local_turistico.rep_front_end} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
+                                    </a>
+                                </div>
+                                <div className={styles.divDownloadsContentBodyItemRight}>
+                                    <h2>Sorteador de Números</h2>
+                                    <Image className={styles.imgLogo} src={logoSorteador} alt="Logo" />
+                                    <p>
+                                        um projeto para sortear números aleatórios.
+                                    </p>
+                                    <h3>REPOSITÓRIOS</h3>
+                                    <a href={projectsVar.rocketseat.sorteador_numeros.rep_front_end} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_site} alt="Website" />
+                                    </a>
+                                    <a href={projectsVar.rocketseat.sorteador_numeros.rep_front_end} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
+                                    </a>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
 

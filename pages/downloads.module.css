@@ -9,7 +9,10 @@
 
 .imgLogo {
     width: 250px;
-    height: 250px;
+    height: auto;
+
+    border: 1px solid var(--color-secondary);
+    border-radius: 5px;
 }
 
 .divDownloads {
@@ -20,7 +23,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
-        align-items: center;
+        align-items: top;
         text-align: center;
 
         @media (max-width: 1110px) {
