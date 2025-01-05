@@ -70,8 +70,86 @@ export default function Downloads() {
                                         <Image className={styles.imgIcons} src={icon_back_end} alt="Back-end" />
                                     </a>
                                 </div>
-                                <div>
-                                    <h2>AMÓS</h2>
+                                <div className={styles.divDownloadsContentBodyItemRight}>
+                                    <h2>Amós</h2>
+                                    <Image className={styles.imgLogo} src={logoAmos} alt="Logo Amós" />
+                                    <p>Amós é uma IA que lhe auxiliará no seu desenvolvimento pessoal!</p>
+                                    <h3>PLATAFORMAS</h3>
+                                    <a href={projectsVar.pessoais.amos.site_link} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_site} alt="Site" />
+                                    </a>
+                                    <a href={projectsVar.pessoais.amos.windows} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_windows} alt="Windows" />
+                                    </a>
+                                    <a href={projectsVar.pessoais.amos.mobile} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_mobile} alt="Mobile" />
+                                    </a>
+                                    <h3>API</h3>
+                                    <a href={projectsVar.pessoais.amos.api} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_api} alt="API" />
+                                    </a>
+                                    <h3>REPOSITÓRIOS</h3>
+                                    <a href={projectsVar.pessoais.amos.rep_front_end} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_front_end} alt="Front-end" />
+                                    </a>
+                                    <a href={projectsVar.pessoais.amos.rep_back_end} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_back_end} alt="Back-end" />
+                                    </a>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div className={styles.divDownloadsContentBodyItem}>
+                                <div className={styles.divDownloadsContentBodyItemLeft}>
+                                    <h2>Taskpilot</h2>
+                                    <Image className={styles.imgLogo} src={logoTaskpilot} alt="Logo Taskpilot" />
+                                    <p>Taskpilot é uma ferramenta de gerenciamento de tarefas eficiente.</p>
+                                    <h3>PLATAFORMAS</h3>
+                                    <a href={projectsVar.pessoais.taskpilot.site_link} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_site} alt="Site" />
+                                    </a>
+                                    <a href={projectsVar.pessoais.taskpilot.windows} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_windows} alt="Windows" />
+                                    </a>
+                                    <a href={projectsVar.pessoais.taskpilot.mobile} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_mobile} alt="Mobile" />
+                                    </a>
+                                    <h3>API</h3>
+                                    <a href={projectsVar.pessoais.taskpilot.api} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_api} alt="API" />
+                                    </a>
+                                    <h3>REPOSITÓRIOS</h3>
+                                    <a href={projectsVar.pessoais.taskpilot.rep_front_end} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_front_end} alt="Front-end" />
+                                    </a>
+                                    <a href={projectsVar.pessoais.taskpilot.rep_back_end} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_back_end} alt="Back-end" />
+                                    </a>
+                                </div>
+                                <div className={styles.divDownloadsContentBodyItemRight}>
+                                    <h2>EConvert</h2>
+                                    <Image className={styles.imgLogo} src={logoEConvert} alt="Logo EConvert" />
+                                    <p>EConvert é uma ferramenta de conversão de medidas.</p>
+                                    <h3>PLATAFORMAS</h3>
+                                    <a href={projectsVar.pessoais.econvert.site_link} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_site} alt="Site" />
+                                    </a>
+                                    <a href={projectsVar.pessoais.econvert.windows} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_windows} alt="Windows" />
+                                    </a>
+                                    <a href={projectsVar.pessoais.econvert.mobile} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_mobile} alt="Mobile" />
+                                    </a>
+                                    <h3>API</h3>
+                                    <a href={projectsVar.pessoais.econvert.api} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_api} alt="API" />
+                                    </a>
+                                    <h3>REPOSITÓRIOS</h3>
+                                    <a href={projectsVar.pessoais.econvert.rep_front_end} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_front_end} alt="Front-end" />
+                                    </a>
+                                    <a href={projectsVar.pessoais.econvert.rep_back_end} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_back_end} alt="Back-end" />
+                                    </a>
                                 </div>
                             </div>
                         </div>
