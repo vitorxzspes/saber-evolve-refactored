@@ -6,6 +6,7 @@ import Link from "next/link";
 import Image from 'next/image';
 import styles from './pessoais.module.css';
 import { motion } from "framer-motion";
+import { projectsVar } from "@/app/var";
 
 // IMPORTANDO IMAGENS
 
@@ -65,7 +66,7 @@ export function ProjectsCMHub() {
             <iframe className={styles.iframesProjects} width="280" height="315" src="https://www.youtube.com/embed/l3v0Erxv4VY?si=aMs2rPC7-OF_MjPo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             <h2>Endereço do site</h2>
             <button>
-                <a href="https://cmhub.vercel.app/" target="_blank" className={styles.buttonLinkSite}>
+                <a href={projectsVar.pessoais.cmhub.site_link} target="_blank" className={styles.buttonLinkSite}>
                     Clique aqui para acessar o site! 🚀
                 </a>
             </button>

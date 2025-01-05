@@ -12,6 +12,7 @@
     --color-primary: black;
     --color-secondary: white;
     --color-tertiary: gray;
+    --color-lucky: purple;
 }
 
 body {
@@ -82,7 +83,7 @@ img {
 }
 
 a {
-    color: var(--color-tertiary);
+    color: var(--color-lucky);
     font-weight: bold;
 }
 
