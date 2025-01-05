@@ -29,6 +29,8 @@ import logoNotasSaber from '../public/images/logo_notas_do_saber.png';
 // ROCKETSEAT
 import logoLocalTuristico from '../public/images/downloads rocketseat/local_turistico.png';
 import logoSorteador from '../public/images/downloads rocketseat/sorteador_numeros.png';
+import logoPetShop from '../public/images/downloads rocketseat/agendamento_pet_shop.png';
+import logoHairDay from '../public/images/downloads rocketseat/hair_day.png';
 
 export default function Downloads() {
     return (
@@ -256,7 +258,36 @@ export default function Downloads() {
                                         <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
                                     </a>
                                 </div>
-
+                            </div>
+                            <div className={styles.divDownloadsContentBodyItem}>
+                                <div className={styles.divDownloadsContentBodyItemLeft}>
+                                    <h2>Agendamento Pet Shop</h2>
+                                    <Image className={styles.imgLogo} src={logoPetShop} alt="Logo" />
+                                    <p>
+                                        um projeto para agendamento de serviços em pet shops.
+                                    </p>
+                                    <h3>REPOSITÓRIOS</h3>
+                                    <a href={projectsVar.rocketseat.agendamento_pet_shop.rep_front_end} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_site} alt="Website" />
+                                    </a>
+                                    <a href={projectsVar.rocketseat.agendamento_pet_shop.rep_front_end} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
+                                    </a>
+                                </div>
+                                <div className={styles.divDownloadsContentBodyItemRight}>
+                                    <h2>Hair Day</h2>
+                                    <Image className={styles.imgLogo} src={logoHairDay} alt="Logo" />
+                                    <p>
+                                      agendamento de serviços em salões
+                                    </p>
+                                    <h3>REPOSITÓRIOS</h3>
+                                    <a href={projectsVar.rocketseat.hair_day.rep_front_end} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_site} alt="Website" />
+                                    </a>
+                                    <a href={projectsVar.rocketseat.hair_day.rep_front_end} target="_blank" rel="noreferrer">
+                                        <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -23,7 +23,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
-        align-items: top;
         text-align: center;
 
         @media (max-width: 1110px) {
@@ -34,6 +33,7 @@
             margin: 1rem;
             
             width: 100%;
+
             .divDownloadsContentHeader {
                 color: var(--color-lucky);
                 font-size: 1.3rem;
@@ -43,9 +43,12 @@
                 align-items: center;
             }
 
+            
             .divDownloadsContentBodyItem {
                 display: flex;
                 width: 100%;
+                height: 100%;
+                align-items: stretch;
                 justify-content: space-around;
                 
                 @media (max-width: 1110px) {

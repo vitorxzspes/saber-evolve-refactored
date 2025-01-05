@@ -73,6 +73,18 @@ export const projectsVar = {
             site_link: process.env.NEXT_PUBLIC_INTERFACE_SORTEADOR_NUMEROS_FRONT_END,
             // REPOSITÓRIOS
             rep_front_end: process.env.NEXT_PUBLIC_REPOSITORIO_SORTEADOR_NUMEROS_FRONT_END,
+        },
+        agendamento_pet_shop: {
+            // INTERFACES
+            site_link: process.env.NEXT_PUBLIC_INTERFACE_AGENDAMENTO_PET_SHOP_FRONT_END,
+            // REPOSITÓRIOS
+            rep_front_end: process.env.NEXT_PUBLIC_REPOSITORIO_AGENDAMENTO_PET_SHOP_FRONT_END,
+        },
+        hair_day: {
+            // INTERFACES
+            site_link: process.env.NEXT_PUBLIC_INTERFACE_HAIR_DAY_FRONT_END,
+            // REPOSITÓRIOS
+            rep_front_end: process.env.NEXT_PUBLIC_REPOSITORIO_HAIR_DAY_FRONT_END,
         }
     }
 }
