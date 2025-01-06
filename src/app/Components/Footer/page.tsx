@@ -1,4 +1,6 @@
-export function Footer() {
+"use client"
+
+export default function Footer() {
     return (
         <footer>
             <p>

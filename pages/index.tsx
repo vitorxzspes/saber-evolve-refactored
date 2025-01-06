@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
-import Link from "next/link";
 
 // IMPORTANDO COMPONENTS
-import { Header } from "../src/app/Components/Header/page";
-import { Footer } from "../src/app/Components/Footer/page";
+import Header from "../src/app/Components/Header/page";
+import Footer from "../src/app/Components/Footer/page";
 
 // PROJECTS
 import { ProjectsCMHub } from "./projetos/pessoais";
@@ -60,7 +59,7 @@ export default function Home() {
       setPhraseIndex((prevIndex) => (prevIndex + 1) % MAX_PHRASES);
     }, 4000);
     return () => clearInterval(interval);
-  }, [phraseIndex]);
+  }, [phraseIndex, MAX_PHRASES]);
 
   return (
     <div>

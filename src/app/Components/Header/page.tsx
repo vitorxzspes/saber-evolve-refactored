@@ -1,3 +1,5 @@
+"use client"
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -7,7 +9,7 @@ import { motion } from 'framer-motion';
 import logo_main from '../../../../public/images/logo_saber-evolve.svg';
 import styles from './page.module.css';
 
-export function Header() {
+export default function Header() {
     const [isMenuProjectsOpen, setIsMenuProjectsOpen] = useState(false);
 
     function handleMenuProjects() {

@@ -1,5 +1,5 @@
-import { Header } from "@/app/Components/Header/page";
-import { Footer } from "@/app/Components/Footer/page";
+import Header from "@/app/Components/Header/page";
+import Footer from "@/app/Components/Footer/page";
 
 import Head from "next/head";
 import styles from './privacidade.module.css';
