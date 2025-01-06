@@ -3,9 +3,9 @@ import Footer from '@/app/Components/Footer/page';
 
 import Image from 'next/image';
 
-import TaskPilotMobile_01 from '../../public/images/mobile/first_project_taskpilot_01.jpg';
-import TaskPilotMobile_02 from '../../public/images/mobile/first_project_taskpilot_02.jpg';
-import TaskPilotMobile_03 from '../../public/images/mobile/first_project_taskpilot_03.jpg';
+import TaskPilotMobile_01 from '/public/images/mobile/first_project_taskpilot_01.jpg';
+import TaskPilotMobile_02 from '/public/images/mobile/first_project_taskpilot_02.jpg';
+import TaskPilotMobile_03 from '/public/images/mobile/first_project_taskpilot_03.jpg';
 
 import { motion } from 'framer-motion';
 import styles from './mobile.module.css';

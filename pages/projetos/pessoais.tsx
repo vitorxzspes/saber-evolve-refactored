@@ -10,11 +10,11 @@ import { projectsVar } from "@/app/var";
 
 // IMPORTANDO IMAGENS
 
-import logoCMHub from '../../public/images/logo_CMHub.png';
-import logoAmos from '../../public/images/amos_logo_principal.png';
-import logoTaskpilot from '../../public/images/logo_taskpilot.png';
-import logoEConvert from '../../public/images/logo_econvert.png';
-import logoResolveTudo from '../../public/images/logo_resolve_tudo.png';
+import logoCMHub from '/public/images/logo_CMHub.png';
+import logoAmos from '/public/images/amos_logo_principal.png';
+import logoTaskpilot from '/public/images/logo_taskpilot.png';
+import logoEConvert from '/public/images/logo_econvert.png';
+import logoResolveTudo from '/public/images/logo_resolve_tudo.png';
 
 export default function Pessoais() {
     return (

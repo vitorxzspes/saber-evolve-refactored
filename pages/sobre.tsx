@@ -6,14 +6,14 @@ import Image from "next/image";
 import styles from './sobre.module.css';
 import { motion } from "framer-motion";
 
-import logoWhatsApp from '../public/icons/social_media/zap pequeno.png';
-import logoInstagram from '../public/icons/social_media/ig pequeno.png';
-import logoGitHub from '../public/icons/social_media/github pequeno.png';
-import logoFacebook from '../public/icons/social_media/facebook pequeno.png';
-import logoYouTube from '../public/icons/social_media/youtube pequeno.png';
-import logoLinkedIn from '../public/icons/social_media/linkedin pequeno.png';
-import logoPinterest from '../public/icons/social_media/pinterest pequeno.png';
-import logoTikTok from '../public/icons/social_media/tik-tok pequeno.png';
+import logoWhatsApp from '/public/icons/social_media/zap pequeno.png';
+import logoInstagram from '/public/icons/social_media/ig pequeno.png';
+import logoGitHub from '/public/icons/social_media/github pequeno.png';
+import logoFacebook from '/public/icons/social_media/facebook pequeno.png';
+import logoYouTube from '/public/icons/social_media/youtube pequeno.png';
+import logoLinkedIn from '/public/icons/social_media/linkedin pequeno.png';
+import logoPinterest from '/public/icons/social_media/pinterest pequeno.png';
+import logoTikTok from '/public/icons/social_media/tik-tok pequeno.png';
 
 export  default function Sobre() {
     return (

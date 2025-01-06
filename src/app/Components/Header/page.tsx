@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 
 // IMPORTING ARCHIVES
-import logo_main from '../../../../public/images/logo_saber-evolve.svg';
+import logo_main from '/public/images/logo_saber-evolve.svg';
 import styles from './page.module.css';
 
 export default function Header() {

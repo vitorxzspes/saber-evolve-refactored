@@ -7,34 +7,34 @@ import styles from './downloads.module.css';
 import { motion } from "framer-motion";
 import { projectsVar } from "@/app/var";
 
-import icon_front_end from '../public/icons/icon_front-end.svg';
-import icon_back_end from '../public/icons/icon_back-end.svg';
-import icon_mobile from '../public/icons/icon_mobile.svg';
-import icon_site from '../public/icons/icon_site.svg';
-import icon_windows from '../public/icons/icon_windows.svg';
-import icon_api from '../public/icons/icon_api.svg';
+import icon_front_end from '/public/icons/icon_front-end.svg';
+import icon_back_end from '/public/icons/icon_back-end.svg';
+import icon_mobile from '/public/icons/icon_mobile.svg';
+import icon_site from '/public/icons/icon_site.svg';
+import icon_windows from '/public/icons/icon_windows.svg';
+import icon_api from '/public/icons/icon_api.svg';
 
-import icon_gitHub from '../public/icons/social_media/github pequeno.png';
+import icon_gitHub from '/public/icons/social_media/github pequeno.png';
 
 // LOGOS PROJETOS
 
 // PESSOAIS
-import logoCMHub from '../public/images/logo_CMHub.png';
-import logoAmos from '../public/images/amos_logo_principal.png';
-import logoTaskpilot from '../public/images/logo_taskpilot.png';
-import logoEConvert from '../public/images/logo_econvert.png';
-import logoResolveTudo from '../public/images/logo_resolve_tudo.png';
-import logoNotasSaber from '../public/images/logo_notas_do_saber.png';
+import logoCMHub from '/public/images/logo_CMHub.png';
+import logoAmos from '/public/images/amos_logo_principal.png';
+import logoTaskpilot from '/public/images/logo_taskpilot.png';
+import logoEConvert from '/public/images/logo_econvert.png';
+import logoResolveTudo from '/public/images/logo_resolve_tudo.png';
+import logoNotasSaber from '/public/images/logo_notas_do_saber.png';
 
 // ROCKETSEAT
-import logoLocalTuristico from '../public/images/downloads rocketseat/local_turistico.png';
-import logoSorteador from '../public/images/downloads rocketseat/sorteador_numeros.png';
-import logoPetShop from '../public/images/downloads rocketseat/agendamento_pet_shop.png';
-import logoHairDay from '../public/images/downloads rocketseat/hair_day.png';
+import logoLocalTuristico from '/public/images/downloads rocketseat/local_turistico.png';
+import logoSorteador from '/public/images/downloads rocketseat/sorteador_numeros.png';
+import logoPetShop from '/public/images/downloads rocketseat/agendamento_pet_shop.png';
+import logoHairDay from '/public/images/downloads rocketseat/hair_day.png';
 
 // CLIENTES
-import logoPizzariaMay from '../public/images/downloads clientes/logo_pizzaria_may.png';
-import logoObrigadoPorHoje from '../public/images/downloads clientes/logo_obrigado_por_hoje.png';
+import logoPizzariaMay from '/public/images/downloads clientes/logo_pizzaria_may.png';
+import logoObrigadoPorHoje from '/public/images/downloads clientes/logo_obrigado_por_hoje.png';
 
 export default function Downloads() {
     return (
