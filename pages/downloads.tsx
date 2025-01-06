@@ -241,7 +241,7 @@ export default function Downloads() {
                                         um dos meus primeiros projetos com a Rocketseat, um site de turismo local.
                                     </p>
                                     <h3>REPOSITÓRIOS</h3>
-                                    <a href={projectsVar.rocketseat.local_turistico.rep_front_end} target="_blank" rel="noreferrer">
+                                    <a href={projectsVar.rocketseat.local_turistico.site_link} target="_blank" rel="noreferrer">
                                         <Image className={styles.imgIcons} src={icon_site} alt="Website" />
                                     </a>
                                     <a href={projectsVar.rocketseat.local_turistico.rep_front_end} target="_blank" rel="noreferrer">
@@ -255,7 +255,7 @@ export default function Downloads() {
                                         um projeto para sortear números aleatórios.
                                     </p>
                                     <h3>REPOSITÓRIOS</h3>
-                                    <a href={projectsVar.rocketseat.sorteador_numeros.rep_front_end} target="_blank" rel="noreferrer">
+                                    <a href={projectsVar.rocketseat.sorteador_numeros.site_link} target="_blank" rel="noreferrer">
                                         <Image className={styles.imgIcons} src={icon_site} alt="Website" />
                                     </a>
                                     <a href={projectsVar.rocketseat.sorteador_numeros.rep_front_end} target="_blank" rel="noreferrer">
@@ -271,7 +271,7 @@ export default function Downloads() {
                                         um projeto para agendamento de serviços em pet shops.
                                     </p>
                                     <h3>REPOSITÓRIOS</h3>
-                                    <a href={projectsVar.rocketseat.agendamento_pet_shop.rep_front_end} target="_blank" rel="noreferrer">
+                                    <a href={projectsVar.rocketseat.agendamento_pet_shop.site_link} target="_blank" rel="noreferrer">
                                         <Image className={styles.imgIcons} src={icon_site} alt="Website" />
                                     </a>
                                     <a href={projectsVar.rocketseat.agendamento_pet_shop.rep_front_end} target="_blank" rel="noreferrer">
@@ -285,7 +285,7 @@ export default function Downloads() {
                                       agendamento de serviços em salões.
                                     </p>
                                     <h3>REPOSITÓRIOS</h3>
-                                    <a href={projectsVar.rocketseat.hair_day.rep_front_end} target="_blank" rel="noreferrer">
+                                    <a href={projectsVar.rocketseat.hair_day.site_link} target="_blank" rel="noreferrer">
                                         <Image className={styles.imgIcons} src={icon_site} alt="Website" />
                                     </a>
                                     <a href={projectsVar.rocketseat.hair_day.rep_front_end} target="_blank" rel="noreferrer">
