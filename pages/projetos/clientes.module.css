@@ -16,3 +16,9 @@
     display: block;
     margin: 2rem auto;
 }
+
+.imgClients {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}

@@ -2,8 +2,12 @@ import Header from "@/app/Components/Header/page";
 import Footer from "@/app/Components/Footer/page";
 
 import Head from "next/head";
+import Image from "next/image";
 import styles from './clientes.module.css';
 import { motion } from "framer-motion";
+
+import headerPapos from '../../public/images/clientes/header.png';
+import feedbackPapos from '../../public/images/clientes/feedback.png';
 
 export default function Clientes() {
     return (
@@ -23,6 +27,26 @@ export default function Clientes() {
                 <p>
                     Aqui estão alguns dos projetos que desenvolvi para os meus clientes.
                 </p>
+
+                <div className={styles.divClientesProjects}>
+                    <h1>🎥 Papos & Retratos</h1>
+                    <p>
+                        este é um projeto educacional do IFB, onde aplicamos todas as etapas de um projeto real, desde assinatura de contrato até elaboração de wireframe. Fizemos um site para um fotógrafo fictício, com páginas como portfólio, contato, sobre e blog.
+                    </p>
+
+                    <p>
+                        Foram divididas tasks para cada integrante do grupo divididas e alocadas em sprint, seguindo a metodologia SCRUM. Vou deixar algumas prints de algumas tasks que eu já fiz:
+                    </p>
+
+                    <Image className={styles.imgClients} src={headerPapos} alt="header papos"/>
+                    <Image className={styles.imgClients} src={feedbackPapos} alt="feedback papos"/>
+
+                    <button className={styles.buttonprojectsclients}>
+                        <a href="https://papos-e-retratos.vercel.app" target="_blank">
+                            Clique aqui para acessar o site 🎥
+                        </a>
+                    </button>
+                </div>
 
                 <div className={styles.divClientesProjects}>
                     <h1>🍕 Pizzaria e Hamburgueria da May</h1>
@@ -45,19 +69,9 @@ export default function Clientes() {
                         <a href="https://vitukjkk.github.io/ObrigadoPorHoje/" target="_blank">Clique aqui para acessar o site 🙏</a>
                     </button>
                 </div>
-
-                <div className={styles.divClientesProjects}>
-                    <h1>🎥 Papos & Retratos</h1>
-                    <p>
-                        este é um projeto educacional do IFB, onde aplicamos todas as etapas de um projeto real, desde assinatura de contrato até elaboração de wireframe. Fizemos um site para um fotógrafo fictício, com páginas como portfólio, contato, sobre e blog.
-                    </p>
-                    <button className={styles.buttonprojectsclients}>
-                        Sem site disponível por enquanto :(
-                    </button>
-                    <i>por enquanto estamos em fase de implementação do código, por isso não posso compartilhar o código, mas em breve estará aqui o vídeo de introdução!</i>
-                </div>
             </motion.div>
             <Footer/>
         </div>
     );
 }
+
