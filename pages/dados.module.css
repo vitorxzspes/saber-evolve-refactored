@@ -1,0 +1,30 @@
+.divDados {
+    margin: 1rem;
+}
+
+.divDadosHeader {
+    display: flex;
+    justify-content: space-around;
+    
+    @media(max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.divDadosHeaderLeft {
+    flex: 1;
+}
+
+.divDadosHeaderRight {
+    flex: 2;
+    text-align: center;
+}
+
+.ulDados {
+    list-style-type: disc;
+    margin: 1rem;
+}
+
+.liDados {
+    list-style-type: square;
+}

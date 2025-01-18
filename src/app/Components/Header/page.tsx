@@ -29,6 +29,8 @@ export default function Header() {
                     transition={{ duration: 0.5 }}>
                     <Link href="/"><li className={styles.liHeader}>Home</li></Link>
                     <li className={styles.liHeader} onClick={handleMenuProjects}>Projetos</li>
+                    <Link href="/cybersecurity"><li className={styles.liHeader}>Cybersecurity</li></Link>
+                    <Link href="/dados"><li className={styles.liHeader}>Dados</li></Link>
                     <Link href="/downloads"><li className={styles.liHeader}>Downloads</li></Link>
                     <Link href="/privacidade"><li className={styles.liHeader}>Privacidade</li></Link>
                     <Link href="/sobre"><li className={styles.liHeader}>Sobre</li></Link>
