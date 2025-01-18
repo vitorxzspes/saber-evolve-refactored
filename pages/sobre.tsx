@@ -32,7 +32,7 @@ export  default function Sobre() {
                 <h1> Prazer!! </h1>
                 <p>
                     Bem-vindo ao meu espaço digital! Me chamo Vitor, e aqui compartilho minha paixão por aprendizado e conhecimento. Sou entusiasta de 
-                    linguagens de programação como JavaScript, C#, TS, Python e SQL, além de ser um praticante de karatê apaixonado pela busca contínua por crescimento pessoal. 
+                    linguagens de programação como JavaScript, C#, TS, Python, R e SQL. Também mexo com Excel, Power BI e outros sistemas, além de ser um praticante de karatê apaixonado pela busca contínua por crescimento pessoal. 
                     Neste site, você encontrará conteúdos educativos e intuitivos sobre esses temas e muito mais, meus projetos e soluções. 
                 </p>
 
