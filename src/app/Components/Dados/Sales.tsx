@@ -9,7 +9,7 @@ export default function Sales() {
     return (
         <div className={styles.divSales}>
             <h2>💻 Análise de vendas de artigos de informática</h2>     
-            <h4 style={{color: 'blue'}}>Python</h4>
+            <h3 style={{color: 'blue'}}>Python</h3>
             <div className={styles.divImages}>
                 <Image className={styles.imgCode} src={pythonCode} alt="Código python"/>
                 <Image className={styles.imgCode} src={csvPrint} alt="Print do csv"/>

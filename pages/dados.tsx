@@ -6,7 +6,9 @@ import Image from "next/image";
 // COMPONENTS
 import Header from "@/app/Components/Header/page"
 import Footer from "@/app/Components/Footer/page"
+
 import Sales from "@/app/Components/Dados/Sales";
+import Weather from "@/app/Components/Dados/Weather";
 
 import DataCampLogo from '../public/images/datacamp.png';
 
@@ -47,6 +49,7 @@ export default function Dados() {
                 aqui são alguns projetos práticos que eu fiz durante minha classe
             </p>
             <Sales/>
+            <Weather/>
             <Footer/>
         </div>
     )
