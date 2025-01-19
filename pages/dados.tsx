@@ -2,8 +2,11 @@ import styles from "./dados.module.css";
 
 import Head from "next/head";
 import Image from "next/image";
+
+// COMPONENTS
 import Header from "@/app/Components/Header/page"
 import Footer from "@/app/Components/Footer/page"
+import Sales from "@/app/Components/Dados/Sales";
 
 import DataCampLogo from '../public/images/datacamp.png';
 
@@ -18,7 +21,6 @@ export default function Dados() {
             <h1>Dados</h1>
             <div className={styles.divDadosHeader}>
                 
-
                 <div className={styles.divDadosHeaderLeft}>
                     <p>
                         Eu estudo pela <span style={{color: 'green', fontWeight: 'bold'}}>DataCamp</span> e aqui está alguns dos cursos que eu fiz:
@@ -41,7 +43,10 @@ export default function Dados() {
 
             <br/>
             <h1>Projetos</h1>
-            <p>mais pra frente colocarei meus projetos</p>
+            <p>
+                aqui são alguns projetos práticos que eu fiz durante minha classe
+            </p>
+            <Sales/>
             <Footer/>
         </div>
     )

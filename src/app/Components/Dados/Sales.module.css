@@ -1,0 +1,24 @@
+.divSales {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.divImages {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    max-width: 100%;
+    
+    @media (max-width: 1250px) {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.imgCode {
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+    margin: 1rem auto;
+}
