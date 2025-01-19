@@ -10,6 +10,9 @@ export default function Weather() {
             <h2>🌦️ Análise de climas</h2>
             <h3 style={{color: 'orange'}}>SQL</h3>
             <Image className={styles.imgCode} src={sqlPrint} alt="Código SQL"/>
+            <p>
+                projeto em SQL feito para análise de dados climáticos. Aqui está o insight que fiz:
+            </p>
             <h4>Insights</h4>
             <p><strong>Variações climáticas ao longo do ano 🌡️</strong></p>
             <p>Com a análise das medições diárias, é possível identificar tendências sazonais, como altas temperaturas no verão e baixa umidade no inverno.

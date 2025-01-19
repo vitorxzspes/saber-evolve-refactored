@@ -9,6 +9,7 @@ import Footer from "@/app/Components/Footer/page"
 
 import Sales from "@/app/Components/Dados/Sales";
 import Weather from "@/app/Components/Dados/Weather";
+import Students from "@/app/Components/Dados/Students";
 
 import DataCampLogo from '../public/images/datacamp.png';
 
@@ -50,6 +51,7 @@ export default function Dados() {
             </p>
             <Sales/>
             <Weather/>
+            <Students/>
             <Footer/>
         </div>
     )
