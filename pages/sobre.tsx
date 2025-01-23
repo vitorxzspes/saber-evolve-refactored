@@ -50,22 +50,22 @@ export  default function Sobre() {
                         </a>
                     </div>
                     <div className={styles.divSobreContactsOne}>
-                        <a href="https://instagram.com/vitukjkkk" target="_blank">
+                        <a href="https://instagram.com/vitorxzspes" target="_blank">
                             <Image src={logoInstagram} alt="Ícone do Instagram"/>
                         </a>
                     </div>
                     <div className={styles.divSobreContactsOne}>
-                        <a href="https://www.facebook.com/seituuu.u/" target="_blank">
+                        <a href="https://www.facebook.com/vitorxzspes/" target="_blank">
                             <Image src={logoFacebook} alt="Ícone do Facebook"/>
                         </a>
                     </div>
                     <div className={styles.divSobreContactsOne}>
-                        <a href="https://github.com/vitukjkk" target="_blank">
+                        <a href="https://github.com/vitorxzspes" target="_blank">
                             <Image src={logoGitHub} alt="Ícone do GitHub"/>
                         </a>
                     </div>
                     <div className={styles.divSobreContactsOne}>
-                        <a href="https://youtube.com/%40vitukjkkk" target="_blank">
+                        <a href="https://youtube.com/%vitorxzspes" target="_blank">
                             <Image src={logoYouTube} alt="Ícone do YouTube"/>
                         </a>
                     </div>
