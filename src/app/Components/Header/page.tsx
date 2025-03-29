@@ -29,8 +29,8 @@ export default function Header() {
                     transition={{ duration: 0.5 }}>
                     <Link href="/"><li className={styles.liHeader}>Home</li></Link>
                     <li className={styles.liHeader} onClick={handleMenuProjects}>Projetos</li>
-                    <Link href="/cybersecurity"><li className={styles.liHeader}>Cybersecurity</li></Link>
                     <Link href="/dados"><li className={styles.liHeader}>Dados</li></Link>
+                    <Link href="/cybersecurity"><li className={styles.liHeader}>Cybersecurity</li></Link>
                     <Link href="/downloads"><li className={styles.liHeader}>Downloads</li></Link>
                     <Link href="/privacidade"><li className={styles.liHeader}>Privacidade</li></Link>
                     <Link href="/sobre"><li className={styles.liHeader}>Sobre</li></Link>
@@ -44,10 +44,11 @@ export default function Header() {
                         className={styles.menuProjects}
                     >
                         <ul className={styles.ulHeader}>
-                            <Link href="/projetos/pessoais"><li className={styles.liHeader}>Pessoais</li></Link>
-                            <Link href="/projetos/rocketseat"><li className={styles.liHeader}>Rocketseat</li></Link>
                             <Link href="/projetos/clientes"><li className={styles.liHeader}>Clientes</li></Link>
+                            <Link href="/projetos/pessoais"><li className={styles.liHeader}>Pessoais</li></Link>
+                            <Link href="/dados"><li className={styles.liHeader}>Dados</li></Link>
                             <Link href="/projetos/mobile"><li className={styles.liHeader}>Mobile</li></Link>
+                            <Link href="/projetos/rocketseat"><li className={styles.liHeader}>Rocketseat / DataCamp</li></Link>
                         </ul>
                     </motion.div>
                 )}

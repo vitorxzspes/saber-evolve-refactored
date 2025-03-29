@@ -76,23 +76,23 @@ export default function Home() {
 
         <div className={styles.divHomeShow}>
           <div className={styles.divHomeMission}>
-            <h2>Missão</h2>
+            <h2 className={styles.h2Title}>Missão</h2>
             <p>Desenvolver soluções tecnológicas que ajudem as pessoas a evoluirem.</p>
           </div>
           
           <div className={styles.divHomeVision}>
-            <h2>Visão</h2>
+            <h2 className={styles.h2Title}>Visão</h2>
             <p>Ser referência em inovação e qualidade no mercado de tecnologia.</p>
           </div>
           
           <div className={styles.divHomeValues}>
-            <h2>Valores</h2>
+            <h2 className={styles.h2Title}>Valores</h2>
             <p>Comprometimento, Ética, Inovação, Qualidade, Respeito.</p>
           </div>
         </div>
 
         <div className={styles.divHomePhrase}>
-          <h2>
+          <h2 className={styles.h2Title}>
             frases que carrego comigo...
           </h2>
           <p className={styles.divHomePhraseIcon}>
@@ -106,7 +106,7 @@ export default function Home() {
           </p>
         </div>
 
-        <hr/>
+        <hr className={styles.hrHome}/>
 
         <div className={styles.divHomeSkills}>
           <h2 className={styles.divHomeSkillsTitle}>
@@ -114,7 +114,7 @@ export default function Home() {
           </h2>
           <div className={styles.divHomeWhatIDo}>
             <div className={styles.divHomeWhatIDoLeft}>
-              <h2>
+              <h2 className={styles.h2Title}>
                 o que eu faço?
               </h2>
               <p>
@@ -124,29 +124,23 @@ export default function Home() {
             <div className={styles.divHomeWhatIDoRight}>
               <ul className={styles.ulHomeWhatIDo}>
                 <li>
-                  sites
+                  Aplicativos Web, Mobile & Desktop
                 </li>
                 <li>
-                  aplicativos mobile
+                  Análise de dados
                 </li>
                 <li>
-                  sistemas
+                  Consultoria em segurança da informação
                 </li>
                 <li>
-                  consultoria
-                </li>
-                <li>
-                  APIs
-                </li>
-                <li>
-                  automações
+                  Automações
                 </li>
               </ul>
             </div>
           </div>
           <div className={styles.divHomeHowIDo}>
             <div className={styles.divHomeHowIDoRight}>
-              <h2>
+              <h2 className={styles.h2Title}>
                 como eu faço?
               </h2>
               <p>
@@ -250,7 +244,7 @@ export default function Home() {
         <hr/>
 
         <div className={styles.divHomeProjects}>
-          <h2>meus projetos</h2>
+          <h2 className={styles.h2Title}>meus projetos</h2>
           <p>alguns dos projetos que eu já desenvolvi:</p>
           <div className={styles.divHomeProjectsSquares}>
             <ProjectsCMHub/>
@@ -261,7 +255,7 @@ export default function Home() {
           </div>
         </div>
 
-        <h2>por enquanto...</h2>
+        <h2 className={styles.h2Title}>por enquanto...</h2>
 
         <p>
           esses são alguns dos projetos que já fiz, você pode conferir a lista completa na página projetos. 🧬

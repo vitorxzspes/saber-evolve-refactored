@@ -42,8 +42,11 @@
     /* O QUE EU FAÇO */
     
     .divHomeWhatIDo {
+        
+
         display: flex;
         align-items: center;
+        text-align: center;
         justify-content: space-around;
 
         @media (max-width: 768px) {
@@ -51,11 +54,11 @@
         }
 
         .ulHomeWhatIDo li {
-            list-style: circle;
+            list-style: none;
         }
 
         .divHomeWhatIDoLeft {
-            flex: 2.5;
+            flex: 1;
         }
 
         .divHomeWhatIDoRight {
@@ -94,4 +97,12 @@
     } 100% {
         transform: rotate(360deg);
     }
+}
+
+.hrHome {
+    margin: 7rem 0;
+}
+
+.h2Title, .divHomeSkillsTitle {
+    color: var(--color-tertiary);
 }
