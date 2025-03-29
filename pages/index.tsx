@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 import Header from "../src/app/Components/Header/page";
 import Footer from "../src/app/Components/Footer/page";
 
+import CTA from "@/app/Components/CTA/main";
+
 // PROJECTS
 
 import { Papos } from "@/app/Components/Clientes/Papos";
@@ -27,7 +29,6 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from './home.module.css';
 import { motion } from "framer-motion";
-
 
 export default function Home() {
   
@@ -342,6 +343,7 @@ export default function Home() {
           esses são alguns dos projetos que já fiz, você pode conferir a lista completa na página projetos. 🧬
         </p>
       </motion.div>
+      <CTA/>     
       <Footer />
     </div>
   );

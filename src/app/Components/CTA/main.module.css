@@ -1,0 +1,15 @@
+.divCTA {
+    width: 320px;
+    padding: 1rem;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.imgCTA {
+    width: 320px;
+    height: auto;
+}
+
+.aCTA {
+    color: var(--color-tertiary);
+}
