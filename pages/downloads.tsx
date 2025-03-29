@@ -52,11 +52,51 @@ export default function Downloads() {
 
                 <h1>Downloads</h1>
                 <p>aqui vou deixar os downloads dos meus projetos</p>
+
+                <div className={styles.divDownloadsContent}>
+                            
+                    <div className={styles.divDownloadsClients}>
+                        <h2>Clientes</h2>
+                    </div>
+
+                    <div className={styles.divDownloadsContentBody}>
+                        <div className={styles.divDownloadsClientsContent}>
+                            <div className={styles.divDownloadsContentBodyItemLeft}>
+                                <h2>🍕 Pizzaria e Hamburgueria da May</h2>
+                                <Image className={styles.imgLogo} src={logoPizzariaMay} alt="Logo" />
+                                <p>
+                                    site para pizzaria e hamburgueria.
+                                </p>
+                                <h3>REPOSITÓRIOS</h3>
+                                <a href={projectsVar.clientes.pizzaria_may.site_link} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_site} alt="Website" />
+                                </a>
+                                <a href={projectsVar.clientes.pizzaria_may.rep_front_end} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
+                                </a>
+                            </div>
+                            <div className={styles.divDownloadsContentBodyItemRight}>
+                                <h2>Obrigado Por Hoje</h2>
+                                <Image className={styles.imgLogo} src={logoObrigadoPorHoje} alt="Logo Obrigado Por Hoje" />
+                                <p>
+                                    site para exercitar gratidão.
+                                </p>
+                                <h3>REPOSITÓRIOS</h3>
+                                <a href={projectsVar.clientes.obrigado_por_hoje.site_link} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_site} alt="Website" />
+                                </a>
+                                <a href={projectsVar.clientes.obrigado_por_hoje.rep_front_end} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
+                <h2 className={styles.tituloDownloadsPessoais}>Pessoais</h2>
                 <div className={styles.divDownloadsMain}>
                     <div className={styles.divDownloadsContent}>
                         <div className={styles.divDownloadsContentHeader}>
-                            <h2>Pessoais</h2>
                         </div>
                         <div className={styles.divDownloadsContentBody}>
                             <div className={styles.divDownloadsContentBodyItem}>
@@ -227,131 +267,71 @@ export default function Downloads() {
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div className={styles.divDownloadsContent}>
-                        <div className={styles.divDownloadsContentHeader}>
-                            <h2>Rocketseat</h2>
-                        </div>
-                        <div className={styles.divDownloadsContentBody}>
-                            <div className={styles.divDownloadsContentBodyItem}>
-                                <div className={styles.divDownloadsContentBodyItemLeft}>
-                                    <h2>Local Turístico</h2>
-                                    <Image className={styles.imgLogo} src={logoLocalTuristico} alt="Logo" />
-                                    <p>
-                                        um dos meus primeiros projetos com a Rocketseat, um site de turismo local.
-                                    </p>
-                                    <h3>REPOSITÓRIOS</h3>
-                                    <a href={projectsVar.rocketseat.local_turistico.site_link} target="_blank" rel="noreferrer">
-                                        <Image className={styles.imgIcons} src={icon_site} alt="Website" />
-                                    </a>
-                                    <a href={projectsVar.rocketseat.local_turistico.rep_front_end} target="_blank" rel="noreferrer">
-                                        <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
-                                    </a>
-                                </div>
-                                <div className={styles.divDownloadsContentBodyItemRight}>
-                                    <h2>Sorteador de Números</h2>
-                                    <Image className={styles.imgLogo} src={logoSorteador} alt="Logo" />
-                                    <p>
-                                        um projeto para sortear números aleatórios.
-                                    </p>
-                                    <h3>REPOSITÓRIOS</h3>
-                                    <a href={projectsVar.rocketseat.sorteador_numeros.site_link} target="_blank" rel="noreferrer">
-                                        <Image className={styles.imgIcons} src={icon_site} alt="Website" />
-                                    </a>
-                                    <a href={projectsVar.rocketseat.sorteador_numeros.rep_front_end} target="_blank" rel="noreferrer">
-                                        <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
-                                    </a>
-                                </div>
+                <div className={styles.divDownloadsSchool}>
+                    <h1 className={styles.h2DownloadsSchool}>Rocketseat</h1>
+
+                    <div className={styles.divDownloadsContentBody}>
+                        <div className={styles.divDownloadsContentBodyItem}>
+                            <div className={styles.divDownloadsContentBodyItemLeft}>
+                                <h2>Local Turístico</h2>
+                                <Image className={styles.imgLogo} src={logoLocalTuristico} alt="Logo" />
+                                <p>
+                                    um dos meus primeiros projetos com a Rocketseat, um site de turismo local.
+                                </p>
+                                <h3>REPOSITÓRIOS</h3>
+                                <a href={projectsVar.rocketseat.local_turistico.site_link} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_site} alt="Website" />
+                                </a>
+                                <a href={projectsVar.rocketseat.local_turistico.rep_front_end} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
+                                </a>
                             </div>
-                            <div className={styles.divDownloadsContentBodyItem}>
-                                <div className={styles.divDownloadsContentBodyItemLeft}>
-                                    <h2>Agendamento Pet Shop</h2>
-                                    <Image className={styles.imgLogo} src={logoPetShop} alt="Logo" />
-                                    <p>
-                                        um projeto para agendamento de serviços em pet shops.
-                                    </p>
-                                    <h3>REPOSITÓRIOS</h3>
-                                    <a href={projectsVar.rocketseat.agendamento_pet_shop.site_link} target="_blank" rel="noreferrer">
-                                        <Image className={styles.imgIcons} src={icon_site} alt="Website" />
-                                    </a>
-                                    <a href={projectsVar.rocketseat.agendamento_pet_shop.rep_front_end} target="_blank" rel="noreferrer">
-                                        <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
-                                    </a>
-                                </div>
-                                <div className={styles.divDownloadsContentBodyItemRight}>
-                                    <h2>Hair Day</h2>
-                                    <Image className={styles.imgLogo} src={logoHairDay} alt="Logo" />
-                                    <p>
-                                      agendamento de serviços em salões.
-                                    </p>
-                                    <h3>REPOSITÓRIOS</h3>
-                                    <a href={projectsVar.rocketseat.hair_day.site_link} target="_blank" rel="noreferrer">
-                                        <Image className={styles.imgIcons} src={icon_site} alt="Website" />
-                                    </a>
-                                    <a href={projectsVar.rocketseat.hair_day.rep_front_end} target="_blank" rel="noreferrer">
-                                        <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
-                                    </a>
-                                </div>
+                            <div className={styles.divDownloadsContentBodyItemRight}>
+                                <h2>Sorteador de Números</h2>
+                                <Image className={styles.imgLogo} src={logoSorteador} alt="Logo" />
+                                <p>
+                                    um projeto para sortear números aleatórios.
+                                </p>
+                                <h3>REPOSITÓRIOS</h3>
+                                <a href={projectsVar.rocketseat.sorteador_numeros.site_link} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_site} alt="Website" />
+                                </a>
+                                <a href={projectsVar.rocketseat.sorteador_numeros.rep_front_end} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
+                                </a>
                             </div>
                         </div>
-                    </div>
-
-                    <div className={styles.divDownloadsContent}>
-                        <div className={styles.divDownloadsContentHeader}>
-                            <h2>Clientes</h2>
-                        </div>
-                        <div className={styles.divDownloadsContentBody}>
-                            <div className={styles.divDownloadsContentBodyItem}>
-                                <div className={styles.divDownloadsContentBodyItemLeft}>
-                                    <h2>🍕 Pizzaria e Hamburgueria da May</h2>
-                                    <Image className={styles.imgLogo} src={logoPizzariaMay} alt="Logo" />
-                                    <p>
-                                        site para pizzaria e hamburgueria.
-                                    </p>
-                                    <h3>REPOSITÓRIOS</h3>
-                                    <a href={projectsVar.clientes.pizzaria_may.site_link} target="_blank" rel="noreferrer">
-                                        <Image className={styles.imgIcons} src={icon_site} alt="Website" />
-                                    </a>
-                                    <a href={projectsVar.clientes.pizzaria_may.rep_front_end} target="_blank" rel="noreferrer">
-                                        <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
-                                    </a>
-                                </div>
-                                <div className={styles.divDownloadsContentBodyItemRight}>
-                                    <h2>Obrigado Por Hoje</h2>
-                                    <Image className={styles.imgLogo} src={logoObrigadoPorHoje} alt="Logo Obrigado Por Hoje" />
-                                    <p>
-                                        site para exercitar gratidão.
-                                    </p>
-                                    <h3>REPOSITÓRIOS</h3>
-                                    <a href={projectsVar.clientes.obrigado_por_hoje.site_link} target="_blank" rel="noreferrer">
-                                        <Image className={styles.imgIcons} src={icon_site} alt="Website" />
-                                    </a>
-                                    <a href={projectsVar.clientes.obrigado_por_hoje.rep_front_end} target="_blank" rel="noreferrer">
-                                        <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
-                                    </a>
-                                </div>
+                        <div className={styles.divDownloadsContentBodyItem}>
+                            <div className={styles.divDownloadsContentBodyItemLeft}>
+                                <h2>Agendamento Pet Shop</h2>
+                                <Image className={styles.imgLogo} src={logoPetShop} alt="Logo" />
+                                <p>
+                                    um projeto para agendamento de serviços em pet shops.
+                                </p>
+                                <h3>REPOSITÓRIOS</h3>
+                                <a href={projectsVar.rocketseat.agendamento_pet_shop.site_link} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_site} alt="Website" />
+                                </a>
+                                <a href={projectsVar.rocketseat.agendamento_pet_shop.rep_front_end} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
+                                </a>
                             </div>
-                        </div>
-                    </div>
-
-                    <div className={styles.divDownloadsContent}>
-                        <div className={styles.divDownloadsContentHeader}>
-                            <h2>Mobile</h2>
-                        </div>
-                        <div className={styles.divDownloadsContentBody}>
-                            <h2>Taskpilot</h2>
-                            <Image className={styles.imgLogo} src={logoTaskpilot} alt="Logo Taskpilot" />
-                            <p>
-                                versão mobile do TaskPilot
-                            </p>
-                            <h3>PLATAFORMAS</h3>
-                            <a href={projectsVar.pessoais.taskpilot.mobile} target="_blank" rel="noreferrer">
-                                <Image className={styles.imgIcons} src={icon_mobile} alt="Mobile" />
-                            </a>
-                            <h3>REPOSITÓRIOS</h3>
-                            <a href={projectsVar.mobile.taskpilot.rep_front_end} target="_blank" rel="noreferrer">
-                                <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
-                            </a>
+                            <div className={styles.divDownloadsContentBodyItemRight}>
+                                <h2>Hair Day</h2>
+                                <Image className={styles.imgLogo} src={logoHairDay} alt="Logo" />
+                                <p>
+                                    agendamento de serviços em salões.
+                                </p>
+                                <h3>REPOSITÓRIOS</h3>
+                                <a href={projectsVar.rocketseat.hair_day.site_link} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_site} alt="Website" />
+                                </a>
+                                <a href={projectsVar.rocketseat.hair_day.rep_front_end} target="_blank" rel="noreferrer">
+                                    <Image className={styles.imgIcons} src={icon_gitHub} alt="GitHub" />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

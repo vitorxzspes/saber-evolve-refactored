@@ -20,9 +20,6 @@
 
     .divDownloadsMain {
 
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: center;
         text-align: center;
 
         @media (max-width: 1300px) {
@@ -61,4 +58,32 @@
         }
     }
 
+}
+
+.divDownloadsClients {
+    color: var(--color-lucky);
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.divDownloadsClientsContent {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.divDownloadsSchool {
+    text-align: center;
+    justify-content: center;
+}
+
+.h2DownloadsSchool {
+    color: var(--color-lucky);
+    font-size: 2rem;
+}
+
+.tituloDownloadsPessoais {
+    color: var(--color-lucky);
+    font-size: 2rem;
+    text-align: center;
 }
