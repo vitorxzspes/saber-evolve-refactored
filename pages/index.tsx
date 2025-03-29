@@ -11,6 +11,9 @@ import { ProjectsTaskpilot } from "./projetos/pessoais";
 import { ProjectsEConvert } from "./projetos/pessoais";
 import { ProjectsResolveTudo } from "./projetos/pessoais";
 
+import { petShopRocketseatProject } from "@/app/Components/Rocketseat/PetShop";
+import Weather from "@/app/Components/Dados/Weather";
+
 // IMAGES
 import porDoSol from '/public/images/general/por_do_sol.jpg';
 import arrowProjects from '/public/icons/general/arrow.png';
@@ -59,6 +62,7 @@ export default function Home() {
   
   
   const [personalProjectsVisible, setPersonalProjectsVisible] = useState(false);
+  const [schoolProjectsVisible, setSchoolProjectsVisible] = useState(false);
 
   const MAX_PHRASES = icons.length;
 
@@ -254,8 +258,10 @@ export default function Home() {
 
         <hr/>
 
+
+
         <div className={styles.divHomeProjects}>
-          <h2 className={styles.h2Title}>meus projetos</h2>
+          <h1 className={styles.h2Title}>meus projetos</h1>
           <p>alguns dos projetos que eu já desenvolvi (você pode conferir todos na aba projetos!):</p>
 
       
@@ -267,14 +273,39 @@ export default function Home() {
               </h2>
             </div>
             <p>esses eu desenvolvi com ideias e autonomia própria, para demosntrar minha habilidades e resolver problemas, clique para vê-los!</p>
-            <div className={styles.divHomePersonalProjectsCards} style={{display: personalProjectsVisible ? "flex" : "none"}}>
+            <motion.div
+              initial={{opacity: 0, y: 40}}
+              animate={{opacity: personalProjectsVisible ? 1 : 0, y: personalProjectsVisible ? 0 : 40}}
+              transition={{duration: 0.5}}
+              className={styles.divHomePersonalProjectsCards} style={{display: personalProjectsVisible ? "flex" : "none"}}>
               <ProjectsCMHub/>
               <ProjectsAmos/>
               <ProjectsTaskpilot/>
               <ProjectsEConvert/>
               <ProjectsResolveTudo/>
-            </div>
+            </motion.div>
           </div>
+        </div>
+
+        <div className={styles.divHomeSchoolProjects}>
+          <div className={styles.divHomeSchoolProjectsHeader}>
+            <Image className={styles.iconArrow} onClick={() => setSchoolProjectsVisible(!schoolProjectsVisible)} style={{transform: personalProjectsVisible ? "rotate(90deg)" : "rotate(0deg)"}} src={arrowProjects} alt="minimiza / maximiza" rel="noreferrer"/>
+            <h2>
+              Projetos acadêmicos
+            </h2>
+          </div>
+            <p>
+              esses eu desenvolvi quando estava estudando, me desafiando a aplicar o conhecimento na prática.
+            </p>
+          <motion.div
+            initial={{opacity: 0, y: 40}}
+            animate={{opacity: schoolProjectsVisible ? 1 : 0, y: schoolProjectsVisible ? 0 : 40}}
+            transition={{duration: 0.5}}
+            className={styles.divHomeSchoolProjectsCards}
+            style={{display: schoolProjectsVisible ? "flex" : "none"}}>
+              <Weather/>
+              {petShopRocketseatProject()}
+          </motion.div>
         </div>
 
         <h2 className={styles.h2Title}>por enquanto...</h2>

@@ -126,7 +126,7 @@ export function ProjectsCMHub() {
 export function ProjectsAmos() {
     return (
         <div className={styles.projectsamos}>
-            <h1>👧 - Amos</h1>
+            <h1>AMÓS</h1>
             <Image src={logoAmos} alt="Logo da AMÓS" className={styles.logos}/>
             <p>
                 Acesse aqui amiga virtual inteligente projetada para apoiar e aprimorar o desenvolvimento pessoal. Com foco em autoaperfeiçoamento, a AMÓS oferece conselhos personalizados, orientações e ferramentas para ajudar os usuários a alcançar seus objetivos, desenvolver novas habilidades e manter a motivação.

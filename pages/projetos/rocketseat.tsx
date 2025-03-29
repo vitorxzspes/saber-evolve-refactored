@@ -6,6 +6,8 @@ import Image from "next/image";
 import styles from './rocketseat.module.css';
 import { motion } from "framer-motion";
 
+import { petShopRocketseatProject } from "@/app/Components/Rocketseat/PetShop";
+
 // IMPORTAR PRINTS
 
 import Print1 from '../../public/images/rocketseat/Screenshot_1.png';
@@ -13,10 +15,6 @@ import Print2 from '../../public/images/rocketseat/Screenshot_2.png';
 import Print3 from '../../public/images/rocketseat/Screenshot_3.png';
 import Print4 from '../../public/images/rocketseat/Screenshot_4.png';
 import Print5 from '../../public/images/rocketseat/Screenshot_5.png';
-import Print6 from '../../public/images/rocketseat/Screenshot_6.png';
-import Print7 from '../../public/images/rocketseat/Screenshot_7.png';
-import Print8 from '../../public/images/rocketseat/Screenshot_8.png';
-import Print9 from '../../public/images/rocketseat/Screenshot_9.png';
 import Print10 from '../../public/images/rocketseat/Screenshot_10.png';
 import Print11 from '../../public/images/rocketseat/Screenshot_11.png';
 import Print12 from '../../public/images/rocketseat/Screenshot_12.png';
@@ -66,19 +64,8 @@ export default function Rocketseat() {
                 </button>
             </div>
 
-            <div className={styles.divRocketseatProject}>
-                <h1>Agendamento de Pet Shop</h1>
-                <p>
-                    esse foi um projeto que fiz para treinar um pouco mais de JavaScript, onde fiz um site que simula um agendamento de um pet shop, onde tem um formulário para o cliente preencher com os dados do pet, e um botão para agendar. Foi bem legal fazer, e aprendi bastante sobre manipulação de elementos no DOM. Também fiz um pouco de CSS para deixar o site mais bonito e responsivo.
-                </p>
-                <Image className={styles.imgrocketseat} src={Print6} alt="Screenshot 6"/>
-                <Image className={styles.imgrocketseat} src={Print7} alt="Screenshot 7"/>
-                <Image className={styles.imgrocketseat} src={Print8} alt="Screenshot 8"/>
-                <Image className={styles.imgrocketseat} src={Print9} alt="Screenshot 9"/><br/>
-                <button>
-                    <a href="https://github.com/vitukjkk/Agendamento-de-Pet-Shop" target="_blank">🐈 Repositório GitHub</a>
-                </button>
-            </div>
+            {petShopRocketseatProject()}
+
 
             <div className={styles.divRocketseatProject}>
                 <h1>Hair Day</h1>
@@ -100,3 +87,4 @@ export default function Rocketseat() {
         </div>
     );
 }
+

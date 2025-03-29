@@ -117,13 +117,14 @@
     color: var(--color-tertiary);
 }
 
-.divHomePersonalProjects {
+.divHomePersonalProjects, .divHomeSchoolProjects {
     border: solid var(--color-tertiary);
     padding: 1rem;
     border-radius: 5px;
+    margin: 3rem 0;
 }
 
-.divHomePersonalProjectsHeader {
+.divHomePersonalProjectsHeader, .divHomeSchoolProjectsHeader {
     display: flex;
 }
 
