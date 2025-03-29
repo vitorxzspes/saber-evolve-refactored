@@ -159,41 +159,60 @@ export default function Home() {
                   <h3>Frameworks</h3>
                   <ul className={styles.ulHomeToolsFrameworks}>
                     <li>React</li>
-                    <li>Next</li>
+                    <li>Next.js</li>
                     <li>React Native</li>
-                    <li>Node</li>
+                    <li>.NET</li>
+                    <li>ASP.NET</li>
+                    <li>.NET Core</li>
+                    <li>.NET MAUI</li>
+                    <li>Blazor</li>
+                    <li>Node.js</li>
+                    <li>Express</li>
                   </ul>
                 </div>
+
                 <div className={styles.divHomeToolsLanguages}>
                   <h3>Linguagens</h3>
                   <ul className={styles.ulHomeToolsLanguages}>
+                    <li>C#</li>
                     <li>TypeScript</li>
                     <li>JavaScript</li>
-                    <li>C#</li>
+                    <li>Python</li>
                     <li>HTML</li>
                     <li>CSS</li>
-                    <li>Python</li>
+                    <li>SQL</li>
                     <li>JSX / TSX</li>
                   </ul>
                 </div>
+
                 <div className={styles.divHomeToolsLibraries}>
                   <h3>Bibliotecas</h3>
                   <ul>
                     <li>Prisma</li>
+                    <li>Entity Framework</li>
+                    <li>LINQ</li>
                     <li>Jest</li>
-                    <li>Webpack</li>
                     <li>Zod</li>
-                    <li>jsonwebtoken</li>
-                    <li>Vite</li>
+                    <li>JWT</li>
+                    <li>bcrypt</li>
                     <li>Styled Components</li>
+                    <li>Redux</li>
+                    <li>Zustand</li>
+                    <li>BeautifulSoup</li>
+                    <li>Scrapy</li>
+                    <li>Pandas</li>
+                    <li>NumPy</li>
+                    <li>Scikit-Learn</li>
                   </ul>
                 </div>
-                
+
                 <div className={styles.divHomeToolsDatabases}>
                   <h3>Bancos de Dados</h3>
                   <ul>
                     <li>PostgreSQL</li>
-                    <li>SQstLite</li>
+                    <li>MySQL</li>
+                    <li>SQLite</li>
+                    <li>SQL Server</li>
                     <li>MongoDB</li>
                   </ul>
                 </div>
@@ -201,11 +220,26 @@ export default function Home() {
                 <div className={styles.divHomeToolsOthers}>
                   <h3>Outros</h3>
                   <ul>
-                    <li>PostgreSQL</li>
-                    <li>APIs RESTful</li>
+                    <li>REST APIs</li>
+                    <li>WebSockets</li>
                     <li>Docker</li>
+                    <li>Docker Compose</li>
                     <li>DevOps</li>
+                    <li>CI/CD (GitHub Actions / GitLab CI)</li>
+                    <li>Git, GitHub, GitLab</li>
+                    <li>OpenAI</li>
+                    <li>AWS</li>
+                    <li>Azure</li>
                     <li>UI/UX com Figma</li>
+                    <li>WSL</li>
+                    <li>Máquinas Virtuais</li>
+                    <li>Design Patterns</li>
+                    <li>MVC</li>
+                    <li>SOLID</li>
+                    <li>DDD</li>
+                    <li>Microsserviços</li>
+                    <li>Clean Architecture</li>
+                    <li>Autenticação e Criptografia</li>
                   </ul>
                 </div>
               </div>
