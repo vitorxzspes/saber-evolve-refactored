@@ -13,6 +13,7 @@ import { ProjectsResolveTudo } from "./projetos/pessoais";
 
 // IMAGES
 import porDoSol from '/public/images/general/por_do_sol.jpg';
+import arrowProjects from '/public/icons/general/arrow.png';
 
 import Head from "next/head";
 import Image from "next/image";
@@ -56,6 +57,9 @@ export default function Home() {
     "Dojo Kun"
   ];
   
+  
+  const [personalProjectsVisible, setPersonalProjectsVisible] = useState(false);
+
   const MAX_PHRASES = icons.length;
 
   useEffect(() => {
@@ -256,9 +260,14 @@ export default function Home() {
 
       
           <div className={styles.divHomePersonalProjects}>
-            <h2>Projetos pessoais</h2>
+            <div className={styles.divHomePersonalProjectsHeader}>
+              <Image className={styles.iconArrow} src={arrowProjects} onClick={()=>setPersonalProjectsVisible(!personalProjectsVisible)} style={{transform: personalProjectsVisible ? "rotate(90deg)" : "rotate(0deg)"}} alt="minimizar ou maximizar" rel="noreferrer"/>
+              <h2>
+                Projetos pessoais
+              </h2>
+            </div>
             <p>esses eu desenvolvi com ideias e autonomia própria, para demosntrar minha habilidades e resolver problemas, clique para vê-los!</p>
-            <div className={styles.divHomePersonalProjectsCards}>
+            <div className={styles.divHomePersonalProjectsCards} style={{display: personalProjectsVisible ? "flex" : "none"}}>
               <ProjectsCMHub/>
               <ProjectsAmos/>
               <ProjectsTaskpilot/>

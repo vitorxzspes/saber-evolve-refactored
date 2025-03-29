@@ -304,46 +304,8 @@ export function ProjectsEConvert() {
                         <li>Kelvin (K)</li>
                     </ul>
                     <br/>
-                    <li><strong>Velocidade</strong></li>
-                    <ul>
-                        <li>Metros por segundo (m/s)</li>
-                        <li>Quilômetros por hora (km/h)</li>
-                        <li>Milhas por hora (mph)</li>
-                        <li>Nós (knots)</li>
-                    </ul>
+                    <p>e muito mais!</p>
                     <br/>
-                    <li><strong>Área</strong></li>
-                    <ul>
-                        <li>Metro quadrado (m²)</li>
-                        <li>Centímetro quadrado (cm²)</li>
-                        <li>Quilômetro quadrado (km²)</li>
-                        <li>Hectare (ha)</li>
-                        <li>Acre</li>
-                    </ul>
-                    <br/>
-                    <li><strong>Volume</strong></li>
-                    <ul>
-                        <li>Metro cúbico (m³)</li>
-                        <li>Litro (L)</li>
-                        <li>Mililitro (ml)</li>
-                        <li>Centímetro cúbico (cm³)</li>
-                        <li>Quilômetro cúbico (km³)</li>
-                        <li>Galão (gal)</li>
-                        <li>Galão americano (3,785 L)</li>
-                        <li>Galão imperial (4,546 L)</li>
-                        <li>Barril de petróleo (~ 159 L)</li>
-                    </ul>
-                    <br/>
-                    <li><strong>Tempo</strong></li>
-                    <ul>
-                        <li>Segundo (s)</li>
-                        <li>Minuto (min)</li>
-                        <li>Hora (h)</li>
-                        <li>Dia (d)</li>
-                        <li>Semana</li>
-                        <li>Mês</li>
-                        <li>Ano (a)</li>
-                    </ul>
                 </ul>
             </ul>
             <p>PS: esses são os módulos que coloquei até agora, se tiver mais sugestões é só falar! #TMJ</p>
