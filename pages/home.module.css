@@ -1,3 +1,13 @@
+.imgHomeLogo {
+    max-width: 100%;
+    max-height: 100%;
+    width: 85%;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: 5rem auto;
+}
+
 .divHome {
     margin: 1rem;
 }
@@ -105,4 +115,20 @@
 
 .h2Title, .divHomeSkillsTitle {
     color: var(--color-tertiary);
+}
+
+.divHomePersonalProjects {
+    border: solid var(--color-tertiary);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.divHomePersonalProjectsCards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 }

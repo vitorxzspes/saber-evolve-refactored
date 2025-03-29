@@ -11,7 +11,11 @@ import { ProjectsTaskpilot } from "./projetos/pessoais";
 import { ProjectsEConvert } from "./projetos/pessoais";
 import { ProjectsResolveTudo } from "./projetos/pessoais";
 
+// IMAGES
+import porDoSol from '/public/images/general/por_do_sol.jpg';
+
 import Head from "next/head";
+import Image from "next/image";
 import styles from './home.module.css';
 import { motion } from "framer-motion";
 
@@ -73,6 +77,9 @@ export default function Home() {
           initial={{opacity: 0, y: 20}}
           animate={{opacity: 1, y: 0}}
           transition={{duration: 0.5}}>
+
+        <Image className={styles.imgHomeLogo} src={porDoSol} alt="peguei no pexels :)" rel="noreferrer"/>
+        <i></i>
 
         <div className={styles.divHomeShow}>
           <div className={styles.divHomeMission}>
@@ -245,13 +252,19 @@ export default function Home() {
 
         <div className={styles.divHomeProjects}>
           <h2 className={styles.h2Title}>meus projetos</h2>
-          <p>alguns dos projetos que eu já desenvolvi:</p>
-          <div className={styles.divHomeProjectsSquares}>
-            <ProjectsCMHub/>
-            <ProjectsAmos/>
-            <ProjectsTaskpilot/>
-            <ProjectsEConvert/>
-            <ProjectsResolveTudo/>
+          <p>alguns dos projetos que eu já desenvolvi (você pode conferir todos na aba projetos!):</p>
+
+      
+          <div className={styles.divHomePersonalProjects}>
+            <h2>Projetos pessoais</h2>
+            <p>esses eu desenvolvi com ideias e autonomia própria, para demosntrar minha habilidades e resolver problemas, clique para vê-los!</p>
+            <div className={styles.divHomePersonalProjectsCards}>
+              <ProjectsCMHub/>
+              <ProjectsAmos/>
+              <ProjectsTaskpilot/>
+              <ProjectsEConvert/>
+              <ProjectsResolveTudo/>
+            </div>
           </div>
         </div>
 
