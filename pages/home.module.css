@@ -117,15 +117,20 @@
     color: var(--color-tertiary);
 }
 
-.divHomePersonalProjects, .divHomeSchoolProjects {
+.divHomePersonalProjects, .divHomeSchoolProjects, .divHomeClientsProjects {
     border: solid var(--color-tertiary);
     padding: 1rem;
     border-radius: 5px;
     margin: 3rem 0;
 }
 
-.divHomePersonalProjectsHeader, .divHomeSchoolProjectsHeader {
+.divHomePersonalProjectsHeader, .divHomeSchoolProjectsHeader, .divHomeClientsProjectsHeader {
     display: flex;
+}
+
+.divHomeClientsProjectsCards {
+    display: flex;
+    justify-content: space-around;
 }
 
 .divHomePersonalProjectsCards {
@@ -136,6 +141,11 @@
     @media (max-width: 768px) {
         flex-direction: column;
     }
+}
+
+.divHomeSchoolProjectsCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .iconArrow {

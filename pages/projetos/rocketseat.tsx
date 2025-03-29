@@ -7,6 +7,7 @@ import styles from './rocketseat.module.css';
 import { motion } from "framer-motion";
 
 import { petShopRocketseatProject } from "@/app/Components/Rocketseat/PetShop";
+import { HairDay } from "@/app/Components/Rocketseat/HairDay";
 
 // IMPORTAR PRINTS
 
@@ -15,9 +16,6 @@ import Print2 from '../../public/images/rocketseat/Screenshot_2.png';
 import Print3 from '../../public/images/rocketseat/Screenshot_3.png';
 import Print4 from '../../public/images/rocketseat/Screenshot_4.png';
 import Print5 from '../../public/images/rocketseat/Screenshot_5.png';
-import Print10 from '../../public/images/rocketseat/Screenshot_10.png';
-import Print11 from '../../public/images/rocketseat/Screenshot_11.png';
-import Print12 from '../../public/images/rocketseat/Screenshot_12.png';
 
 export default function Rocketseat() {
     return (
@@ -66,19 +64,7 @@ export default function Rocketseat() {
 
             {petShopRocketseatProject()}
 
-
-            <div className={styles.divRocketseatProject}>
-                <h1>Hair Day</h1>
-                <p>
-                    esse trabalhamos bastante o Front-End, com HTML, CSS e JavaScript, onde fizemos um site de um salão de beleza fictício, onde tem informações sobre o salão, fotos e um formulário de contato. Foi bem legal fazer, e aprendi bastante.
-                </p>
-                <Image className={styles.imgrocketseat} src={Print10} alt="Screenshot 10"/>
-                <Image className={styles.imgrocketseat} src={Print11} alt="Screenshot 11"/>
-                <Image className={styles.imgrocketseat} src={Print12} alt="Screenshot 12"/><br/>
-                <button>
-                    <a href="https://github.com/vitukjkk/Hair-Day" target="_blank">🐈 Repositório GitHub</a>
-                </button>
-            </div>
+            <HairDay/>
 
             <h2>eu fiz mais, porém esses são os que consegui achar :)</h2>
 

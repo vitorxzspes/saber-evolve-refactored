@@ -5,6 +5,9 @@ import Header from "../src/app/Components/Header/page";
 import Footer from "../src/app/Components/Footer/page";
 
 // PROJECTS
+
+import { Papos } from "@/app/Components/Clientes/Papos";
+
 import { ProjectsCMHub } from "./projetos/pessoais";
 import { ProjectsAmos } from "./projetos/pessoais";
 import { ProjectsTaskpilot } from "./projetos/pessoais";
@@ -13,6 +16,7 @@ import { ProjectsResolveTudo } from "./projetos/pessoais";
 
 import { petShopRocketseatProject } from "@/app/Components/Rocketseat/PetShop";
 import Weather from "@/app/Components/Dados/Weather";
+import { HairDay } from "@/app/Components/Rocketseat/HairDay";
 
 // IMAGES
 import porDoSol from '/public/images/general/por_do_sol.jpg';
@@ -61,6 +65,7 @@ export default function Home() {
   ];
   
   
+  const [clientsProjectsVisible, setClientsProjectsVisible] = useState(false);
   const [personalProjectsVisible, setPersonalProjectsVisible] = useState(false);
   const [schoolProjectsVisible, setSchoolProjectsVisible] = useState(false);
 
@@ -258,13 +263,32 @@ export default function Home() {
 
         <hr/>
 
-
+        
 
         <div className={styles.divHomeProjects}>
+ 
           <h1 className={styles.h2Title}>meus projetos</h1>
           <p>alguns dos projetos que eu já desenvolvi (você pode conferir todos na aba projetos!):</p>
 
-      
+          <div className={styles.divHomeClientsProjects}>
+            <div className={styles.divHomeClientsProjectsHeader}>
+              <Image className={styles.iconArrow} onClick={() => setClientsProjectsVisible(!clientsProjectsVisible)} src={arrowProjects} alt="maximiza e minimiza" rel="noreferrer"/>
+              <h2>Projetos para clientes</h2>
+            </div>
+            <p>
+              projetos desenvolvidos para clientes reais, com demandas próprias e que me desafiaram a entregar o melhor resultado possível.
+            </p>
+            <motion.div
+              initial={{opacity: 0, y: 40}}
+              animate={{opacity: clientsProjectsVisible ? 1 : 0, y: clientsProjectsVisible ? 0 : 40}}
+              transition={{duration: 0.5}}
+              className={styles.divHomeClientsProjectsCards}
+              style={{display: clientsProjectsVisible ? "flex" : "none"}}>
+                <Papos/>
+                <div>mundo</div>
+            </motion.div>
+          </div>
+
           <div className={styles.divHomePersonalProjects}>
             <div className={styles.divHomePersonalProjectsHeader}>
               <Image className={styles.iconArrow} src={arrowProjects} onClick={()=>setPersonalProjectsVisible(!personalProjectsVisible)} style={{transform: personalProjectsVisible ? "rotate(90deg)" : "rotate(0deg)"}} alt="minimizar ou maximizar" rel="noreferrer"/>
@@ -272,7 +296,9 @@ export default function Home() {
                 Projetos pessoais
               </h2>
             </div>
-            <p>esses eu desenvolvi com ideias e autonomia própria, para demosntrar minha habilidades e resolver problemas, clique para vê-los!</p>
+            <p>
+              esses eu desenvolvi com ideias e autonomia própria, para demosntrar minha habilidades e resolver problemas, clique para vê-los!
+            </p>
             <motion.div
               initial={{opacity: 0, y: 40}}
               animate={{opacity: personalProjectsVisible ? 1 : 0, y: personalProjectsVisible ? 0 : 40}}
@@ -302,9 +328,10 @@ export default function Home() {
             animate={{opacity: schoolProjectsVisible ? 1 : 0, y: schoolProjectsVisible ? 0 : 40}}
             transition={{duration: 0.5}}
             className={styles.divHomeSchoolProjectsCards}
-            style={{display: schoolProjectsVisible ? "flex" : "none"}}>
+            style={{display: schoolProjectsVisible ? "grid" : "none"}}>
               <Weather/>
               {petShopRocketseatProject()}
+              <HairDay/>
           </motion.div>
         </div>
 
