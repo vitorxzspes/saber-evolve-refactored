@@ -15,3 +15,10 @@
 .divSobreContactsOne {
     margin: .7rem;
 }
+
+.imgSobre {
+    margin: 1rem auto;
+    display: block;
+    width: 300px;
+    height: auto;
+}

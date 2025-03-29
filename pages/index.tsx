@@ -7,6 +7,7 @@ import Footer from "../src/app/Components/Footer/page";
 // PROJECTS
 
 import { Papos } from "@/app/Components/Clientes/Papos";
+import { Pizzaria } from "@/app/Components/Clientes/Pizzaria";
 
 import { ProjectsCMHub } from "./projetos/pessoais";
 import { ProjectsAmos } from "./projetos/pessoais";
@@ -283,9 +284,9 @@ export default function Home() {
               animate={{opacity: clientsProjectsVisible ? 1 : 0, y: clientsProjectsVisible ? 0 : 40}}
               transition={{duration: 0.5}}
               className={styles.divHomeClientsProjectsCards}
-              style={{display: clientsProjectsVisible ? "flex" : "none"}}>
+              style={{display: clientsProjectsVisible ? "grid" : "none"}}>
                 <Papos/>
-                <div>mundo</div>
+                <Pizzaria/>
             </motion.div>
           </div>
 

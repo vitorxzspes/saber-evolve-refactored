@@ -129,8 +129,8 @@
 }
 
 .divHomeClientsProjectsCards {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .divHomePersonalProjectsCards {

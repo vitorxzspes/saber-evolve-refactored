@@ -6,6 +6,8 @@ import Image from "next/image";
 import styles from './sobre.module.css';
 import { motion } from "framer-motion";
 
+import mePhoto from '/public/images/about/me.jpg';
+
 import logoWhatsApp from '/public/icons/social_media/zap pequeno.png';
 import logoInstagram from '/public/icons/social_media/ig pequeno.png';
 import logoGitHub from '/public/icons/social_media/github pequeno.png';
@@ -30,6 +32,9 @@ export  default function Sobre() {
                 transition={{duration: 0.5}}>
 
                 <h1> Prazer!! </h1>
+
+                <Image className={styles.imgSobre} src={mePhoto} alt="Vitor Colombelli"/>
+
                 <p>
                     Bem-vindo ao meu espaço digital! Me chamo Vitor, e aqui compartilho minha paixão por aprendizado e conhecimento. Sou entusiasta de 
                     linguagens de programação como JavaScript, C#, TS, Python, R e SQL. Também mexo com Excel, Power BI e outros sistemas, além de ser um praticante de karatê apaixonado pela busca contínua por crescimento pessoal. 
