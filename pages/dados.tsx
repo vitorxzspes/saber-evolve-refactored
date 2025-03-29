@@ -2,6 +2,7 @@ import styles from "./dados.module.css";
 
 import Head from "next/head";
 import Image from "next/image";
+import CTA from "@/app/Components/CTA/main";
 
 // COMPONENTS
 import Header from "@/app/Components/Header/page"
@@ -52,6 +53,7 @@ export default function Dados() {
             <Sales/>
             <Weather/>
             <Students/>
+            <CTA/>
             <Footer/>
         </div>
     )

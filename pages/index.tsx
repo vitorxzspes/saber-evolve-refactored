@@ -41,7 +41,6 @@ export default function Home() {
     "A persistência é o caminho do êxito.",
     "O sucesso é a soma de pequenos esforços repetidos dia após dia.",
     "Acredite em si próprio e todo o resto ficará mais fácil.",
-    "Com grandes poderes, vêm grandes responsabilidades.",
     "Não é nossa habilidade que mostra quem realmente somos... são nossas escolhas.",
     "A verdade está lá fora.",
     "Eu sou a vingança, eu sou a noite, eu sou o Batman.",
@@ -55,7 +54,6 @@ export default function Home() {
     "Charles Chaplin",
     "Robert Collier",
     "Norman Vincent Peale",
-    "Tio Ben (Homem-Aranha)",
     "Dumbledore (Harry Potter)",
     "Fox Mulder (Arquivo X)",
     "Batman",
@@ -94,7 +92,7 @@ export default function Home() {
           transition={{duration: 0.5}}>
 
         <Image className={styles.imgHomeLogo} src={porDoSol} alt="peguei no pexels :)" rel="noreferrer"/>
-        <i></i>
+        <i className={styles.iHome}>a noite sempre é mais escura um pouco antes do amanhecer...</i>
 
         <div className={styles.divHomeShow}>
           <div className={styles.divHomeMission}>

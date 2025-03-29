@@ -6,6 +6,7 @@ import Image from "next/image";
 import styles from './downloads.module.css';
 import { motion } from "framer-motion";
 import { projectsVar } from "@/app/var";
+import CTA from "@/app/Components/CTA/main";
 
 import icon_front_end from '/public/icons/icon_front-end.svg';
 import icon_back_end from '/public/icons/icon_back-end.svg';
@@ -335,6 +336,7 @@ export default function Downloads() {
                         </div>
                     </div>
                 </div>
+            <CTA/>
             </motion.div>
             <Footer />
         </div>

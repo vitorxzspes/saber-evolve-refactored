@@ -7,6 +7,7 @@ import styles from './sobre.module.css';
 import { motion } from "framer-motion";
 
 import mePhoto from '/public/images/about/me.jpg';
+import CTA from "@/app/Components/CTA/main";
 
 import logoWhatsApp from '/public/icons/social_media/zap pequeno.png';
 import logoInstagram from '/public/icons/social_media/ig pequeno.png';
@@ -87,6 +88,7 @@ export  default function Sobre() {
                 </div>
 
             </motion.div>
+            <CTA/>
             <Footer />
         </div>
     )
