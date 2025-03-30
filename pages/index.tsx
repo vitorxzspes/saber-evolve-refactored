@@ -315,7 +315,7 @@ export default function Home() {
 
         <div className={styles.divHomeSchoolProjects}>
           <div className={styles.divHomeSchoolProjectsHeader}>
-            <Image className={styles.iconArrow} onClick={() => setSchoolProjectsVisible(!schoolProjectsVisible)} style={{transform: personalProjectsVisible ? "rotate(90deg)" : "rotate(0deg)"}} src={arrowProjects} alt="minimiza / maximiza" rel="noreferrer"/>
+            <Image className={styles.iconArrow} onClick={() => setSchoolProjectsVisible(!schoolProjectsVisible)} style={{transform: schoolProjectsVisible ? "rotate(90deg)" : "rotate(0deg)"}} src={arrowProjects} alt="minimiza / maximiza" rel="noreferrer"/>
             <h2>
               Projetos acadêmicos
             </h2>
