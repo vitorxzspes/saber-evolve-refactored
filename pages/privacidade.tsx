@@ -4,7 +4,6 @@ import Footer from "@/app/Components/Footer/page";
 import Head from "next/head";
 import styles from './privacidade.module.css';
 import { motion } from "framer-motion";
-import CTA from "@/app/Components/CTA/main";
 
 export default function Privacidade() {
     return (
@@ -86,7 +85,6 @@ export default function Privacidade() {
                 </p>
             </div>
             </motion.div>
-            <CTA/>
             <Footer />
         </div>
     );
